@@ -1,0 +1,27 @@
+variable,variable_label,category,state,n_days,empirical_P_high,BN_P_high,delta_P,abs_delta_P
+Temperature_level,Temperature,Meteorological,Low,487,0.3613963,0.36122642,0.02743802,0.02743802
+Temperature_level,Temperature,Meteorological,Medium,487,0.42505133,0.42449184,0.09070344,0.09070344
+Temperature_level,Temperature,Meteorological,High,488,0.21516393,0.21588736,-0.11790104,0.11790104
+Humidity_level,Humidity,Meteorological,Low,488,0.19672131,0.19755733,-0.13623106,0.13623106
+Humidity_level,Humidity,Meteorological,Medium,488,0.40163934,0.401224,0.06743561,0.06743561
+Humidity_level,Humidity,Meteorological,High,486,0.40329218,0.40286499,0.0690766,0.0690766
+WindSpeed_level,Wind speed,Meteorological,Low,488,0.41598361,0.41548064,0.08169225,0.08169225
+WindSpeed_level,Wind speed,Meteorological,Medium,487,0.34291581,0.34285902,0.00907063,0.00907063
+WindSpeed_level,Wind speed,Meteorological,High,487,0.24229979,0.24285868,-0.09092972,0.09092972
+Precipitation_rain,Precipitation,Meteorological,No rain,762,0.35170604,0.35163494,0.01784654,0.01784654
+Precipitation_rain,Precipitation,Meteorological,Rain,700,0.31428571,0.3143679,-0.0194205,0.0194205
+CO_level,CO,Gaseous pollutant,Low,487,0.03080082,0.03265332,-0.30113507,0.30113507
+CO_level,CO,Gaseous pollutant,Medium,487,0.21355236,0.21428712,-0.11950128,0.11950128
+CO_level,CO,Gaseous pollutant,High,488,0.75614754,0.7535657,0.41977731,0.41977731
+NO2_level,NO2,Gaseous pollutant,Low,488,0.1045082,0.1059071,-0.22788129,0.22788129
+NO2_level,NO2,Gaseous pollutant,Medium,486,0.24691358,0.24744532,-0.08634308,0.08634308
+NO2_level,NO2,Gaseous pollutant,High,488,0.64959016,0.64765975,0.31387135,0.31387135
+SO2_level,SO2,Gaseous pollutant,Low,488,0.23770492,0.23829072,-0.09549768,0.09549768
+SO2_level,SO2,Gaseous pollutant,Medium,486,0.23868313,0.23926532,-0.09452307,0.09452307
+SO2_level,SO2,Gaseous pollutant,High,488,0.52459016,0.52342367,0.18963527,0.18963527
+O3_level,O3,Gaseous pollutant,Low,487,0.43737166,0.43673675,0.10294835,0.10294835
+O3_level,O3,Gaseous pollutant,Medium,487,0.23819302,0.23877703,-0.09501137,0.09501137
+O3_level,O3,Gaseous pollutant,High,488,0.32581967,0.32586741,-0.00792098,0.00792098
+PM10_level,PM10,Particulate background,Low,488,0.0,0.00203668,-0.33175172,0.33175172
+PM10_level,PM10,Particulate background,Medium,486,0.1563786,0.15746532,-0.17632308,0.17632308
+PM10_level,PM10,Particulate background,High,488,0.8442623,0.84114164,0.50735325,0.50735325

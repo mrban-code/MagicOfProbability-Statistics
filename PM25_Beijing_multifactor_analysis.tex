@@ -1,0 +1,369 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=0.78in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{placeins}
+\usepackage{hyperref}
+
+\linespread{1.10}
+\setlength{\parskip}{0.28em}
+\setlength{\parindent}{0pt}
+\setlength{\textfloatsep}{9pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovedisplayskip}{7pt}
+\setlength{\belowdisplayskip}{7pt}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.08}
+\emergencystretch=2em
+\graphicspath{{figures/}}
+\captionsetup{font=small,labelfont=bf,justification=centering,singlelinecheck=false}
+\captionsetup[table]{position=top,skip=5pt}
+\captionsetup[figure]{position=bottom,skip=5pt}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\urlstyle{same}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\safeincludegraphics}[2][]{%
+\IfFileExists{figures/#2}{%
+\includegraphics[#1]{#2}%
+}{%
+\fbox{\begin{minipage}[c][0.30\textheight][c]{0.88\textwidth}
+\centering\small Figure file \texttt{#2} was not found. Place it in \texttt{figures/} to render this panel.
+\end{minipage}}%
+}%
+}
+
+\title{Multifactor Association Analysis of Beijing PM$_{2.5}$:\\Meteorological Conditions, Pollutant Co-movement, and Short-term Persistence}
+\author{Ban Jingyang, Chen Anyi, Chen Lichong, Feng Shuo, Lian Yuehan, and Wu Ziqi}
+\date{June 14, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This study analyzes daily PM$_{2.5}$ concentrations in Beijing and compares three sources of statistical association: meteorological conditions, co-moving pollutants, and short-term persistence. The group members initially believed that weather variables such as temperature, humidity, wind speed, and precipitation would show strong statistical associations with daily PM$_{2.5}$ variation. To test this group hypothesis rather than assume it, the study uses a multi-stage workflow including descriptive statistics, Bayesian-network state analysis, random forest, LASSO, grouped OLS comparison, full OLS, a generalized additive model (GAM), and a forecasting extension. The evidence revises the original weather-centered hypothesis. Meteorological states are associated with high-pollution risk, especially low wind speed and high humidity, but their standalone association strength is limited: weather plus seasonal controls gives $R^2=0.208$, and weather plus lagged PM$_{2.5}$ plus seasonal controls gives $R^2=0.474$. In contrast, gaseous pollutants plus seasonal controls reach $R^2=0.706$, and gaseous pollutants plus lagged PM$_{2.5}$ plus seasonal controls reach $R^2=0.767$, close to the full model's $R^2=0.770$. The central conclusion is therefore not that weather has the strongest association with PM$_{2.5}$, but that pollutant co-movement and short-term persistence provide stronger and more stable statistical signals. However, the strong correlations among CO, NO$_2$, PM$_{10}$, and PM$_{2.5}$ should not be interpreted directly as one-way relationships. These pollutants may share emission sources and may also be jointly correlated with atmospheric chemistry and meteorological dispersion. Future research should add traffic flow, industrial emissions, energy consumption, boundary-layer height, wind direction, regional transport, and related variables to identify the shared background conditions behind pollutant co-movement.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Beijing air pollution; PM$_{2.5}$; meteorology; pollutant co-movement; short-term persistence; Bayesian network; random forest; LASSO; OLS; GAM.
+
+\noindent\textbf{Author Contributions:} Ban Jingyang, Chen Anyi, Chen Lichong, Feng Shuo, Lian Yuehan, and Wu Ziqi contributed equally to this project. All authors shared responsibility for research design, data organization, model implementation, figure and table preparation, result interpretation, writing, and revision.
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Research Question and Revised Hypothesis}
+
+PM$_{2.5}$ is a central indicator of fine particulate air pollution because fine particles can remain suspended in the atmosphere and vary substantially from day to day. Its daily concentration can be statistically associated with local emissions, atmospheric dispersion, wet removal, boundary-layer structure, secondary formation, and regional transport \cite{who2021,seinfeld2016}. At the beginning of this study, the group members believed that meteorological factors would show a strong association with Beijing PM$_{2.5}$. Low wind speed is related to weaker dispersion conditions, high humidity may reflect stagnant conditions or particle hygroscopic growth, rainfall is related to wet-removal conditions, and temperature may represent seasonal and chemical backgrounds.
+
+The research question is therefore: \emph{Which type of information is most strongly associated with daily PM$_{2.5}$ in this dataset: weather conditions, contemporaneous pollutant co-movement, or short-term persistence?} This question is intentionally comparative. Instead of estimating one model and treating all significant coefficients as equally important, the analysis compares evidence across methods with different assumptions: state-based probability analysis, nonlinear prediction, regularized variable screening, linear decomposition, and nonlinear smoothing.
+
+The experiments do not fully support the initial weather-centered hypothesis. Weather variables show meaningful state differences, but their standalone association strength is limited, and many weather coefficients become small or unstable after controlling for pollutants and lagged PM$_{2.5}$. In contrast, CO, NO$_2$, PM$_{10}$, and lagged PM$_{2.5}$ repeatedly appear as variables with stronger associations in descriptive analysis, Bayesian-network sensitivity analysis, random forest, LASSO, OLS, and GAM.
+
+The research narrative is therefore revised from ``showing that weather is strongly associated with PM$_{2.5}$'' to ``comparing the association strength of weather, pollutant co-movement, and short-term persistence.'' The weather hypothesis is not rejected in an absolute sense; it is narrowed. Meteorology provides background conditions and nonlinear modifiers, but it is not the strongest standalone statistical signal for daily PM$_{2.5}$ variation in this dataset.
+
+\section{Data and Experimental Design}
+
+The dataset contains 1,462 daily observations for Beijing. After constructing lagged PM$_{2.5}$, the main regression sample contains 1,461 valid observations. The dependent variable is daily PM$_{2.5}$. Candidate predictors include Temperature, Humidity, WindSpeed, Precipitation, CO, NO$_2$, SO$_2$, O$_3$, PM$_{10}$, Lag\_PM2.5, month, and seasonal indicators. Weather variables describe dispersion and removal conditions; gaseous pollutants describe co-moving pollution information; and Lag\_PM2.5 describes short-term persistence. Seasonal indicators are included to reduce confounding from annual cycles. AQI is used only as a descriptive or forecasting reference because it is partly constructed from pollutant information and would otherwise blur the interpretation of association models.
+
+PM$_{10}$ is retained in descriptive statistics, correlations, and the Bayesian network as evidence of particulate co-movement. It is not included in the main full OLS and GAM association models, because PM$_{10}$ and PM$_{2.5}$ overlap physically and statistically \cite{who2021}. Including PM$_{10}$ in every association model would increase predictive fit but would make coefficient interpretation less clear, since part of PM$_{10}$ may contain the same fine-particle variation that the dependent variable already measures.
+
+The analysis has five connected stages. Stage 1 uses descriptive statistics and correlation ranking to establish the first empirical facts. Stage 2 uses a Bayesian network to compare high-pollution probabilities under concrete pollutant and weather states. Stage 3 uses random forest and LASSO to test whether key variables remain stable under nonlinear prediction and regularized screening. Stage 4 uses grouped OLS and full OLS to compare the statistical association strength of weather, pollutants, and lagged PM$_{2.5}$. Stage 5 uses GAM to check nonlinear intervals. A final forecasting extension then asks whether strong in-sample associations translate into accurate short-term prediction. Across all stages, the study treats models as tools for association analysis rather than as definitive one-way interpretation.
+
+\section{Empirical Association Analysis}
+
+This section presents the main empirical evidence in five stages. The stages move from descriptive patterns to state-based probability analysis, machine-learning variable screening, grouped linear comparison, and nonlinear robustness checks.
+
+\subsection{Stage 1: Descriptive Statistics and Correlation Screening}
+
+Descriptive statistics show that PM$_{2.5}$ is right-skewed. Its mean is 30.10 $\mu\mathrm{g}/\mathrm{m}^3$, its median is 22.71 $\mu\mathrm{g}/\mathrm{m}^3$, and its maximum is 164.34 $\mu\mathrm{g}/\mathrm{m}^3$. Most days are therefore low to moderate pollution days, while a smaller number of severe episodes lift the average. Lagged PM$_{2.5}$ has nearly the same mean and standard deviation as current PM$_{2.5}$, which indicates short-term persistence. Precipitation has a median of zero, so rainfall should be interpreted both as a rain/no-rain state and as a continuous amount.
+
+\begin{table}[!htbp]
+\centering
+\caption{Descriptive Statistics of Key Variables}
+\label{tab:desc}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Variable & $n$ & Mean & SD & Min & Median & Max \\
+\midrule
+PM$_{2.5}$ & 1,462 & 30.10 & 25.72 & 1.63 & 22.71 & 164.34 \\
+Temperature & 1,462 & 12.26 & 11.89 & -16.12 & 13.63 & 33.27 \\
+Humidity & 1,462 & 58.28 & 17.37 & 15.24 & 58.17 & 96.00 \\
+WindSpeed & 1,462 & 2.23 & 1.02 & 0.43 & 2.01 & 9.71 \\
+Precipitation & 1,462 & 2.21 & 7.73 & 0.00 & 0.00 & 97.29 \\
+CO & 1,462 & 0.49 & 0.20 & 0.11 & 0.46 & 1.45 \\
+NO$_2$ & 1,462 & 23.14 & 12.43 & 2.44 & 20.10 & 66.21 \\
+SO$_2$ & 1,462 & 2.94 & 0.80 & 0.65 & 2.72 & 8.13 \\
+O$_3$ & 1,462 & 62.07 & 32.87 & 5.10 & 58.24 & 192.21 \\
+PM$_{10}$ & 1,462 & 57.53 & 50.75 & 4.16 & 46.28 & 696.56 \\
+Lag\_PM2.5 & 1,461 & 30.11 & 25.72 & 1.63 & 22.75 & 164.34 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.95\textwidth]{desc_summary_panels.png}
+\caption{Descriptive Plots for the PM$_{2.5}$ Data: Time Series, Histogram, Boxplots, and Correlation Heatmap}
+\label{fig:desc}
+\end{figure}
+
+The correlation ranking further qualifies the initial weather-centered hypothesis. Figure~\ref{fig:corr-ranking} shows that the strongest Pearson correlations with PM$_{2.5}$ belong to AQI, CO, PM$_{10}$, NO$_2$, and Lag\_PM2.5. CO has a correlation of 0.780, PM$_{10}$ has 0.777, NO$_2$ has 0.632, and Lag\_PM2.5 has 0.579. The weather variables have lower absolute correlations: WindSpeed is -0.220, Humidity is 0.213, Temperature is -0.108, and Precipitation is -0.109. The signs of the weather correlations are physically plausible, but their magnitudes are weaker than the pollutant co-movement signals.
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.92\textwidth]{supplement_pm25_correlation_ranking.png}
+\caption{Pearson Correlation Ranking Between Candidate Variables and PM$_{2.5}$}
+\label{fig:corr-ranking}
+\end{figure}
+\FloatBarrier
+
+\subsection{Stage 2: Bayesian-Network Analysis of High-Pollution States}
+
+The Bayesian network converts correlation patterns into concrete high-pollution probability statements. High PM$_{2.5}$ is defined as PM$_{2.5}>32.24$ $\mu\mathrm{g}/\mathrm{m}^3$, and the baseline high-pollution probability is 33.38\%. The network is used as an association model over observed states, not as a diagram of one-way relationships. This distinction is important because probabilistic graphical models can describe conditional dependence without identifying why that dependence appears in the data \cite{koller2009,pearl1988}.
+
+\begin{equation}
+P(Y,X_1,\ldots,X_p)=P(Y)\prod_{j=1}^{p}P(X_j\mid Y),
+\quad
+P(Y=\mathrm{High}\mid E)=
+\frac{P(Y=\mathrm{High})P(E\mid Y=\mathrm{High})}
+{\sum_y P(Y=y)P(E\mid Y=y)} .
+\end{equation}
+
+Weather states are related to high-pollution risk, but the shifts are moderate. Low wind speed, defined as $\leq 1.65$ m/s, raises the high-pollution probability to 41.55\%, which is 8.17 percentage points above baseline. High wind speed, defined as $>2.40$ m/s, lowers it to 24.29\%. High humidity, defined as $>67.29\%$, corresponds to a high-pollution probability of 40.29\%. No-rain days have a probability of 35.16\%, only slightly above baseline.
+
+Pollutant states produce much stronger contrasts. When CO is high, defined as $>0.54$ mg/m$^3$, the high-pollution probability reaches 75.36\%, or 41.98 percentage points above baseline. When NO$_2$ is high, defined as $>25.92$ $\mu\mathrm{g}/\mathrm{m}^3$, the probability reaches 64.77\%. When PM$_{10}$ is high, defined as $>62.30$ $\mu\mathrm{g}/\mathrm{m}^3$, the probability reaches 84.11\%. These results indicate that pollutant co-movement distinguishes high-pollution days much more strongly than any single weather state.
+
+\begin{table}[!htbp]
+\centering
+\caption{Key State Risks from the Bayesian Network}
+\label{tab:bn}
+\small
+\begin{tabularx}{\textwidth}{YYrrr}
+\toprule
+State & Definition & High-PM$_{2.5}$ prob. & Change & Mean PM$_{2.5}$ \\
+\midrule
+Low wind & $\leq 1.65$ m/s & 41.55\% & +8.17 pp & 36.88 \\
+High wind & $>2.40$ m/s & 24.29\% & -9.09 pp & 23.70 \\
+High humidity & $>67.29\%$ & 40.29\% & +6.91 pp & 36.35 \\
+No rain & Precipitation = 0 & 35.16\% & +1.78 pp & 31.08 \\
+High CO & $>0.54$ mg/m$^3$ & 75.36\% & +41.98 pp & 52.95 \\
+High NO$_2$ & $>25.92$ $\mu\mathrm{g}/\mathrm{m}^3$ & 64.77\% & +31.39 pp & 49.45 \\
+High PM$_{10}$ & $>62.30$ $\mu\mathrm{g}/\mathrm{m}^3$ & 84.11\% & +50.74 pp & 55.95 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.95\textwidth]{bn_summary_panels.png}
+\caption{Bayesian-Network Structure, State Probabilities, Sensitivity Ranking, and Selected Scenarios}
+\label{fig:bn}
+\end{figure}
+\FloatBarrier
+
+\subsection{Stage 3: Random Forest and LASSO Variable Identification}
+
+Random forest is used to compare variable importance in a nonlinear predictive framework \cite{breiman2001}. The model has a test RMSE of 11.64, MAE of 7.13, test $R^2=0.7787$, and out-of-bag $R^2=0.7876$. Importance is highly concentrated: CO accounts for 57.77\%, Lag\_PM2.5 accounts for 18.80\%, and NO$_2$ accounts for 8.46\%. Together, these three variables account for about 85\% of total impurity-based importance. Weather variables are also related to prediction, but their individual importance shares are much smaller: Humidity accounts for 2.78\%, Temperature accounts for 2.54\%, and WindSpeed accounts for 1.84\%.
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.95\textwidth]{rf_summary_panels.jpg}
+\caption{Random-Forest Feature Importance, Observed-Versus-Predicted Values, and Residual Diagnostics}
+\label{fig:rf}
+\end{figure}
+
+LASSO gives a similar result under regularized linear screening \cite{tibshirani1996}. With cross-validated $\alpha_{\min}=0.0517$, the largest positive standardized coefficients are CO, NO$_2$, and Lag\_PM2.5, with values of 14.300, 7.946, and 6.952. WindSpeed, Precipitation, SO$_2$, and several seasonal terms are retained or shrunk, but their magnitudes and signs require caution because the predictors are correlated. The agreement between random forest and LASSO shows that pollutant co-movement and short-term persistence are not artifacts of one modeling method.
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.92\textwidth]{lasso_summary_panels.png}
+\caption{LASSO Cross-Validation Curve, Coefficient Path, and Selected Standardized Coefficients}
+\label{fig:lasso}
+\end{figure}
+\FloatBarrier
+
+\subsection{Stage 4: Grouped OLS Comparison of Association Strength}
+
+To compare the association strength of weather, pollutants, and persistence, the study uses grouped OLS specifications. OLS is useful here because nested or grouped specifications make differences in model fit directly visible \cite{wooldridge2016}. The results are shown in Table~\ref{tab:group-ols} and Figure~\ref{fig:group-r2}. Weather variables plus seasonal controls have only $R^2=0.208$. Adding lagged PM$_{2.5}$ raises this to $R^2=0.474$. In contrast, gaseous pollutants plus seasonal controls already reach $R^2=0.706$. Gaseous pollutants plus lagged PM$_{2.5}$ plus seasonal controls reach $R^2=0.767$, nearly equal to the full model's $R^2=0.770$. Adding weather variables to the pollutant and persistence model therefore provides only a small additional association gain.
+
+\begin{table}[!htbp]
+\centering
+\caption{Grouped OLS Comparison}
+\label{tab:group-ols}
+\small
+\begin{tabularx}{\textwidth}{Yrrrr}
+\toprule
+Model & $n$ & $R^2$ & Adjusted $R^2$ & RMSE \\
+\midrule
+Weather + season & 1,461 & 0.208 & 0.204 & 22.88 \\
+Weather + lagged PM$_{2.5}$ + season & 1,461 & 0.474 & 0.472 & 18.64 \\
+Gaseous pollutants + season & 1,461 & 0.706 & 0.704 & 13.96 \\
+Gaseous pollutants + lagged PM$_{2.5}$ + season & 1,461 & 0.767 & 0.765 & 12.43 \\
+Weather + gaseous pollutants + season & 1,461 & 0.720 & 0.718 & 13.60 \\
+Full: weather + gases + lagged PM$_{2.5}$ + season & 1,461 & 0.770 & 0.768 & 12.34 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.94\textwidth]{supplement_group_model_r2_comparison.png}
+\caption{Association Strength of Grouped OLS Models}
+\label{fig:group-r2}
+\end{figure}
+
+This comparison is the central turning point of the study. Weather variables are associated with PM$_{2.5}$, but their association is weaker than the pollutant and persistence signals. Pollutant variables and yesterday's PM$_{2.5}$ are more stable and stronger. The original hypothesis should therefore be described as partially supported but substantially weakened: weather appears mainly as a background condition and nonlinear modifier, rather than as the strongest statistical correlate of daily PM$_{2.5}$ variation in this dataset.
+
+\subsubsection{Full OLS Coefficient Interpretation}
+
+The full OLS model is estimated to provide interpretable conditional associations after controlling for weather, gaseous pollutants, lagged PM$_{2.5}$, and seasonality. The model is
+\begin{equation}
+\begin{aligned}
+\mathrm{PM}_{2.5,t}=&\beta_0+\beta_1\mathrm{Temperature}_t+\beta_2\mathrm{Humidity}_t+\beta_3\mathrm{WindSpeed}_t+\beta_4\mathrm{Precipitation}_t\\
+&+\beta_5\mathrm{CO}_t+\beta_6\mathrm{NO}_{2,t}+\beta_7\mathrm{SO}_{2,t}+\beta_8\mathrm{O}_{3,t}+\beta_9\mathrm{LagPM}_{2.5,t}\\
+&+\beta_{10}\mathrm{Spring}_t+\beta_{11}\mathrm{Summer}_t+\beta_{12}\mathrm{Autumn}_t+\varepsilon_t .
+\end{aligned}
+\end{equation}
+
+In the full model, CO, NO$_2$, and Lag\_PM2.5 are the most stable positive terms. CO has a raw coefficient of 71.96 and a standardized coefficient of 0.565. NO$_2$ has a raw coefficient of 0.635 and a standardized coefficient of 0.307. Lag\_PM2.5 has a raw coefficient of 0.271 and a standardized coefficient of 0.271. Humidity is not significant as a linear term, precipitation has only a marginal negative association, and WindSpeed has a small positive conditional coefficient. The wind coefficient should not be read as ``more wind corresponds to higher pollution in general.'' Combined with the Bayesian-network result, the more reasonable interpretation is that low wind speed is associated with a high-risk stagnation state, while a single linear coefficient is shaped by seasonality, collinearity, and nonlinear intervals.
+
+\begin{table}[!htbp]
+\centering
+\caption{Main Coefficients in the Full OLS Model}
+\label{tab:ols-coef}
+\small
+\begin{tabularx}{\textwidth}{lrrrY}
+\toprule
+Variable & Raw coef. & Std. coef. & Approx. $p$ & Interpretation \\
+\midrule
+CO & 71.96 & 0.565 & $<0.001$ & strongest positive conditional association \\
+NO$_2$ & 0.635 & 0.307 & $<0.001$ & stable gaseous-pollutant signal \\
+Lag\_PM2.5 & 0.271 & 0.271 & $<0.001$ & short-term persistence \\
+O$_3$ & 0.066 & 0.084 & 0.001 & requires seasonal and nonlinear interpretation \\
+WindSpeed & 1.047 & 0.042 & 0.021 & small conditional linear term \\
+Temperature & -0.147 & -0.068 & 0.041 & weak negative association after controls \\
+Precipitation & -0.092 & -0.028 & 0.063 & weak removal direction \\
+Humidity & -0.013 & -0.008 & 0.716 & not significant as a linear term \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.58\textwidth]{mlr_diagnostic_panels.png}
+\caption{Full OLS Observed-Versus-Predicted Values and Residual Diagnostics}
+\label{fig:ols}
+\end{figure}
+\FloatBarrier
+
+\subsection{Stage 5: GAM Assessment of Nonlinear Associations}
+
+OLS gives interpretable coefficients, but it assumes constant marginal associations. This assumption may be too restrictive for air-pollution data because dispersion, wet removal, and secondary formation can vary by threshold or interval. To examine nonlinear association patterns, the study fits a GAM \cite{hastie1990,wood2017}:
+\begin{equation}
+\mathrm{PM}_{2.5,t}=\beta_0+s_1(\mathrm{WindSpeed}_t)+s_2(\mathrm{Humidity}_t)+s_3(\mathrm{NO}_{2,t})+s_4(\mathrm{CO}_t)+s_5(\mathrm{O}_{3,t})+\mathbf{z}_t^\top\boldsymbol\gamma+\varepsilon_t .
+\end{equation}
+Here $\mathbf{z}_t$ contains precipitation, temperature, lagged PM$_{2.5}$, and month as linear controls. The GAM reaches $R^2=0.7930$, adjusted $R^2=0.7881$, RMSE = 11.70, and AIC = 11,402.51. Its AIC is 183.89 lower than the linear baseline, which indicates that nonlinear association structure adds information beyond constant-slope OLS.
+
+The GAM still supports the pollutant-centered association pattern. CO has the largest smooth-term association share, with a drop in explained deviance of 0.0692. NO$_2$ is second, with a drop of 0.0544. CO has a significant positive association interval from 0.54 to 1.08 mg/m$^3$, and NO$_2$ has a significant positive association interval from 25.43 to 58.67 $\mu\mathrm{g}/\mathrm{m}^3$. These thresholds are close to the high-state cutpoints found in the Bayesian network. Humidity and WindSpeed also show nonlinear intervals, but their association shares are smaller and their directions are not simple monotone associations.
+
+\begin{table}[!htbp]
+\centering
+\caption{GAM Smooth-Term Association Strength and Main Nonlinear Intervals}
+\label{tab:gam}
+\small
+\begin{tabularx}{\textwidth}{lrrY}
+\toprule
+Smooth term & Drop dev. & $p$ & Main association pattern \\
+\midrule
+CO & 0.0692 & $<0.001$ & significantly positive from 0.54 to 1.08 mg/m$^3$ \\
+NO$_2$ & 0.0544 & $<0.001$ & significantly positive from 25.43 to 58.67 $\mu\mathrm{g}/\mathrm{m}^3$ \\
+O$_3$ & 0.0187 & $<0.001$ & negative at low values and positive at higher values \\
+Humidity & 0.0072 & $<0.001$ & negative from 52.29 to 66.84\%, positive from 73.82 to 91.28\% \\
+WindSpeed & 0.0020 & 0.025 & local negative intervals and high-wind positive interval coexist \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.92\textwidth]{gam_diagnostic_importance_panels_clean.png}
+\caption{GAM Diagnostics and Smooth-Term Association Ranking}
+\label{fig:gam}
+\end{figure}
+\FloatBarrier
+
+\section{Forecasting Extension: Strong Association Does Not Mean Easy Prediction}
+
+The forecasting branch is retained as an extension because strong contemporaneous association does not automatically imply easy out-of-sample prediction. It uses previous-day and historical features, including lagged PM$_{2.5}$, AQI, meteorology, gaseous pollutants, rolling means, rolling standard deviations, trend slopes, seasonality, and wind-direction transforms. This forecasting task is different from the association analysis: it cannot use information that would only be observed after the target day, and it still lacks potentially relevant variables such as traffic emissions, temporary industrial activity, holiday travel, fireworks, regional transport, and unobserved chemical processes.
+
+Even with additional historical features, predictive fit remains limited. In the daily forecasting experiment, the weather-only previous-day ridge model has test $R^2=0.3600$. The validation-weighted ensemble performs best, but its test $R^2$ is only 0.4447, with RMSE = 16.97. In the multi-horizon trend experiment, the one-day direct ridge model reaches $R^2=0.3701$, while horizons 2--7 usually fall to about 0.08--0.16. The models therefore identify related factors, but they still cannot fully fit short-term PM$_{2.5}$ variation. This gap is useful: it suggests that the dataset contains strong association signals but misses part of the information needed for operational prediction.
+
+\begin{table}[!htbp]
+\centering
+\caption{Representative Forecasting Performance}
+\label{tab:forecast}
+\small
+\begin{tabularx}{\textwidth}{Yrrrr}
+\toprule
+Model & RMSE & MAE & Bias & $R^2$ \\
+\midrule
+Weather-only previous-day ridge & 18.22 & 13.32 & 4.07 & 0.3600 \\
+Compact enhanced ridge & 16.98 & 11.82 & 0.16 & 0.4442 \\
+All-lag enhanced ridge & 17.32 & 12.00 & -1.05 & 0.4216 \\
+Enhanced lag random forest & 17.54 & 11.67 & 0.02 & 0.4065 \\
+Validation-weighted ensemble & 16.97 & 11.66 & 0.14 & 0.4447 \\
+Persistence baseline & 21.91 & 15.10 & 0.09 & 0.0738 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[!htbp]
+\centering
+\safeincludegraphics[width=0.66\textwidth]{best_ensemble_observed_vs_predicted.png}
+\caption{Observed-Versus-Predicted Values for the Best Daily Ensemble Model}
+\label{fig:forecast}
+\end{figure}
+\FloatBarrier
+
+\section{Discussion: Interpretation Limits of Pollutant Correlation}
+
+The main finding is that meteorological conditions are related to PM$_{2.5}$, but their association is weaker and more nonlinear than the pollutant and persistence signals. Pollutant co-movement and short-term persistence are more stable statistical signals. This conclusion is supported by multiple layers of evidence: CO, PM$_{10}$, NO$_2$, and Lag\_PM2.5 rank above weather variables in correlation; high CO, high NO$_2$, and high PM$_{10}$ correspond to much larger Bayesian-network probability shifts than low wind or high humidity; CO, NO$_2$, and Lag\_PM2.5 repeatedly rank high in random forest and LASSO; grouped OLS shows that pollutant models have much higher association strength than weather models; and GAM gives the largest nonlinear association shares to CO and NO$_2$.
+
+These results should be read as correlation evidence rather than as one-way relationships from CO or NO$_2$ to PM$_{2.5}$ \cite{pearl1988}. This study finds strong correlations among CO, NO$_2$, PM$_{10}$, and PM$_{2.5}$, but these pollutants may share common emission sources, such as traffic, combustion, industrial activity, or regional transport \cite{seinfeld2016,yu2013,lv2022}. They may also be jointly associated with atmospheric chemistry, boundary-layer height, wind direction, wind speed, humidity, and other dispersion conditions. Therefore, the pollutant correlations in this study describe association strength, not direct one-way relationships.
+
+The limitations are also visible in the forecasting results. PM$_{2.5}$ may be associated with many factors that are difficult to quantify, including vehicle emissions, holiday travel, temporary controls, industrial production cycles, energy use, heating intensity, regional transport paths, and secondary aerosol formation \cite{yu2013,lv2022}. These factors are not fully observed in the present dataset. As a result, even models using weather and pollutant information reach only moderate test fit in prediction. The study identifies consistently related factors, but accurate short-term prediction remains difficult.
+
+\section{Conclusion and Future Research}
+
+This study began with the group members' belief that meteorological factors would have a strong association with PM$_{2.5}$. The multi-stage evidence shows that this hypothesis needs revision. Weather variables are associated with high-pollution states and show nonlinear intervals in GAM, but they are not the strongest statistical signal in this dataset. Pollutant co-movement and short-term persistence are stronger and more stable: CO, NO$_2$, PM$_{10}$, and Lag\_PM2.5 repeatedly appear across methods and substantially increase model fit.
+
+The final conclusion has three parts. First, the original weather hypothesis is only partially supported; meteorology is related to dispersion, removal, and nonlinear background conditions. Second, pollutant co-movement is the strongest statistical clue in the PM$_{2.5}$ analysis, but it may reflect common emissions and shared atmospheric conditions rather than a one-way relationship. Third, short-term prediction remains limited, which suggests that important unobserved variables are missing from the current data.
+
+Future work should therefore focus on the shared background variables behind pollutant co-movement. Useful extensions include traffic flow, industrial emissions, energy consumption, heating indicators, boundary-layer height, wind direction, pressure fields, regional transport, holiday indicators, and emission inventories \cite{yu2013,lv2022}. These variables would help compare how strongly weather conditions, emission-source indicators, and chemical-transformation indicators are associated with PM$_{2.5}$.
+
+\begin{thebibliography}{99}
+\bibitem{breiman2001} Breiman, L. (2001). Random forests. \emph{Machine Learning}, 45(1), 5--32.
+\bibitem{hastie1990} Hastie, T. J., and Tibshirani, R. J. (1990). \emph{Generalized Additive Models}. Chapman and Hall.
+\bibitem{koller2009} Koller, D., and Friedman, N. (2009). \emph{Probabilistic Graphical Models}. MIT Press.
+\bibitem{lv2022} Lv, L., Wei, P., Hu, J., Chen, Y., and Shi, Y. (2022). Source apportionment and regional transport of PM$_{2.5}$ during haze episodes in Beijing combined with multiple models. \emph{Atmospheric Research}, 266, 105957.
+\bibitem{pearl1988} Pearl, J. (1988). \emph{Probabilistic Reasoning in Intelligent Systems}. Morgan Kaufmann.
+\bibitem{seinfeld2016} Seinfeld, J. H., and Pandis, S. N. (2016). \emph{Atmospheric Chemistry and Physics: From Air Pollution to Climate Change} (3rd ed.). Wiley.
+\bibitem{tibshirani1996} Tibshirani, R. (1996). Regression shrinkage and selection via the Lasso. \emph{Journal of the Royal Statistical Society: Series B}, 58(1), 267--288.
+\bibitem{who2021} World Health Organization. (2021). \emph{WHO Global Air Quality Guidelines: Particulate Matter (PM$_{2.5}$ and PM$_{10}$), Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide}. World Health Organization.
+\bibitem{wood2017} Wood, S. N. (2017). \emph{Generalized Additive Models: An Introduction with R}. Chapman and Hall/CRC.
+\bibitem{wooldridge2016} Wooldridge, J. M. (2016). \emph{Introductory Econometrics: A Modern Approach}. Cengage Learning.
+\bibitem{yu2013} Yu, L., Wang, G., Zhang, R., Zhang, L., Song, Y., Wu, B., Li, X., An, K., and Chu, J. (2013). Characterization and source apportionment of PM$_{2.5}$ in an urban environment in Beijing. \emph{Aerosol and Air Quality Research}, 13(2), 574--583.
+\end{thebibliography}
+
+\end{document}

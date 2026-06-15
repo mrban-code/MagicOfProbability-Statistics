@@ -1,0 +1,7 @@
+scenario,evidence,matching_days,empirical_P_high,BN_P_high,delta_P
+Baseline,None,1462,0.33378933,0.3337884,0.0
+Low wind speed,WindSpeed_level=Low,488,0.41598361,0.41548064,0.08169225
+High humidity,Humidity_level=High,486,0.40329218,0.40286499,0.0690766
+High NO2,NO2_level=High,488,0.64959016,0.64765975,0.31387135
+High CO,CO_level=High,488,0.75614754,0.7535657,0.41977731
+High CO + low wind speed,CO_level=High; WindSpeed_level=Low,242,0.73553719,0.77895182,0.44516343

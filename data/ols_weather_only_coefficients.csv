@@ -1,0 +1,10 @@
+model,term,coefficient,std_error,z_statistic_normal_approx,p_value_normal_approx,significance,standardized_coefficient,interpretation_scale
+Weather-only OLS: meteorology + lagged PM2.5,Intercept,11.652801295676966,3.4019065603541363,3.425373709989235,0.0006139542896817119,***,,PM2.5 units
+Weather-only OLS: meteorology + lagged PM2.5,Temperature,0.034516568868788455,0.08933091600435532,0.38638995784063834,0.6992078862520098,,0.01595563725526465,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,Humidity,0.32603691827045767,0.040338148756885905,8.082594970717432,6.340292716639414e-16,***,0.220015916430242,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,WindSpeed,-5.931964724769005,0.613034572165812,-9.676395091082306,3.798747593666667e-22,***,-0.23582092707879732,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,Precipitation,-0.4153501824175604,0.07349014689429076,-5.651780544336179,1.5879424967088445e-08,***,-0.12481057070592147,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,Lag_PM2.5,0.5398480810469348,0.01990803710093495,27.117092373792175,6.191174037607448e-162,***,0.5397859939880951,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,season_Spring,5.451111924980945,2.0990753270035087,2.5969110564329134,0.009406627835461135,**,0.09201019665184366,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,season_Summer,-10.959682530686997,2.98100296539143,-3.676508429520432,0.00023644804561183858,***,-0.1849902476353595,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect
+Weather-only OLS: meteorology + lagged PM2.5,season_Autumn,-6.866557587237274,1.960298216479771,-3.5028127503824273,0.00046037297322429907,***,-0.1154808419582912,PM2.5 units per 1-unit increase; standardized column gives 1-SD effect

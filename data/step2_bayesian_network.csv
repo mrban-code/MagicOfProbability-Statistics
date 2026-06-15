@@ -1,0 +1,1463 @@
+date,PM2.5_level,Temperature_level,Humidity_level,WindSpeed_level,CO_level,NO2_level,SO2_level,O3_level,PM10_level,Precipitation_rain,PM2.5_high
+2022-05-21,High,High,Low,Medium,Medium,Medium,Medium,High,High,No rain,1
+2022-05-22,Medium,High,Low,High,Medium,Medium,Medium,High,High,Rain,0
+2022-05-23,Medium,High,Low,Medium,Medium,Medium,Low,High,High,Rain,0
+2022-05-24,Medium,High,Low,High,Medium,Medium,Medium,High,Medium,Rain,0
+2022-05-25,Low,High,Low,High,Low,Low,Medium,High,Low,No rain,0
+2022-05-26,Low,High,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-05-27,Low,High,Low,High,Low,Medium,Medium,High,Medium,No rain,0
+2022-05-28,Medium,High,Low,High,Medium,Medium,High,High,High,No rain,0
+2022-05-29,Medium,High,Low,High,Low,Low,Medium,High,Medium,Rain,0
+2022-05-30,Low,High,Low,High,Low,Low,Low,High,Low,No rain,0
+2022-05-31,Medium,High,Low,Medium,Low,Medium,Medium,High,Medium,No rain,0
+2022-06-01,Low,High,Low,Low,Low,Medium,Low,High,Medium,No rain,0
+2022-06-02,Medium,High,Low,High,Low,Medium,High,High,Medium,No rain,0
+2022-06-03,High,High,Low,Medium,High,Medium,High,High,High,Rain,1
+2022-06-04,Medium,High,Medium,Low,Medium,Low,Medium,High,Medium,Rain,0
+2022-06-05,Low,High,Low,High,Low,Low,Medium,High,Low,No rain,0
+2022-06-06,Low,High,Low,High,Low,Low,Medium,High,Low,No rain,0
+2022-06-07,Low,High,Low,High,Medium,Low,Low,High,Low,Rain,0
+2022-06-08,Medium,Medium,Medium,Medium,High,Low,High,High,Medium,Rain,0
+2022-06-09,Medium,Medium,Medium,Medium,High,Medium,Medium,High,Medium,Rain,0
+2022-06-10,Medium,High,Medium,Medium,High,Low,Low,High,Medium,Rain,0
+2022-06-11,Medium,High,High,High,High,Low,Low,High,Medium,Rain,0
+2022-06-12,Medium,High,High,Medium,Medium,Low,Medium,High,Low,Rain,0
+2022-06-13,Low,High,Medium,Low,Medium,Low,Medium,High,Low,Rain,0
+2022-06-14,Low,High,Medium,Low,Medium,Low,Medium,High,Low,Rain,0
+2022-06-15,Medium,High,Medium,Medium,High,Low,Medium,High,Medium,Rain,0
+2022-06-16,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2022-06-17,High,High,High,Medium,High,Medium,Medium,High,High,Rain,1
+2022-06-18,High,High,High,Medium,High,Low,Medium,High,High,Rain,1
+2022-06-19,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2022-06-20,High,High,Medium,Medium,High,Low,Low,High,High,Rain,1
+2022-06-21,High,High,Medium,Low,High,Medium,Medium,High,High,Rain,1
+2022-06-22,High,High,High,Low,High,Medium,Medium,High,High,Rain,1
+2022-06-23,Low,High,Medium,Medium,Medium,Low,Medium,High,Low,Rain,0
+2022-06-24,Low,High,Low,Medium,Low,Medium,Low,High,Low,Rain,0
+2022-06-25,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,Rain,0
+2022-06-26,Medium,High,Medium,High,High,Low,High,High,Medium,Rain,0
+2022-06-27,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2022-06-28,Low,High,High,Medium,Medium,Low,Medium,Medium,Low,Rain,0
+2022-06-29,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2022-06-30,Low,High,High,Low,Medium,Low,Low,High,Low,Rain,0
+2022-07-01,Medium,High,High,Low,High,Low,Low,High,Low,Rain,0
+2022-07-02,High,High,High,Medium,High,Low,Medium,High,Medium,Rain,1
+2022-07-03,Medium,High,High,Medium,High,Low,Medium,High,Low,Rain,0
+2022-07-04,Medium,High,High,Medium,High,Low,Medium,High,Low,Rain,0
+2022-07-05,High,High,High,Medium,High,Low,Low,High,Medium,Rain,1
+2022-07-06,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2022-07-07,Low,High,Medium,Medium,Medium,Medium,Low,High,Low,No rain,0
+2022-07-08,Medium,High,Medium,Low,Medium,Medium,Medium,High,Medium,Rain,0
+2022-07-09,Low,High,Medium,High,Low,Medium,Medium,Medium,Low,Rain,0
+2022-07-10,Low,High,High,Low,Low,Low,Medium,High,Low,Rain,0
+2022-07-11,Medium,High,High,Low,Medium,Medium,Medium,High,Medium,Rain,0
+2022-07-12,Low,High,High,Medium,Medium,Low,Medium,High,Low,Rain,0
+2022-07-13,Low,High,Medium,Low,Medium,Low,Medium,High,Low,No rain,0
+2022-07-14,Low,High,Medium,Medium,Low,Low,Medium,High,Low,No rain,0
+2022-07-15,Low,High,Medium,Low,Low,Medium,Medium,High,Low,No rain,0
+2022-07-16,Medium,High,High,Medium,High,Medium,Medium,High,Medium,No rain,0
+2022-07-17,Medium,High,Medium,Medium,Medium,Low,Low,High,Medium,No rain,0
+2022-07-18,Low,High,Low,Medium,Low,Low,Low,High,Low,No rain,0
+2022-07-19,Low,High,Medium,Low,Medium,Medium,Low,High,Medium,No rain,0
+2022-07-20,Medium,High,Medium,Medium,Medium,Medium,Medium,High,Medium,Rain,0
+2022-07-21,Medium,High,High,Low,Medium,Low,Low,High,Medium,Rain,0
+2022-07-22,Medium,High,High,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2022-07-23,Low,High,Medium,Low,Low,Low,Low,High,Low,Rain,0
+2022-07-24,Medium,High,Medium,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2022-07-25,Medium,High,High,Medium,Medium,Low,Low,High,Medium,Rain,0
+2022-07-26,Medium,High,High,Medium,Medium,Low,Low,High,Medium,Rain,0
+2022-07-27,Medium,High,High,Low,Medium,Low,Low,High,Low,Rain,0
+2022-07-28,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-07-29,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2022-07-30,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2022-07-31,Medium,High,High,Low,Medium,Low,Medium,High,Medium,Rain,0
+2022-08-01,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2022-08-02,High,High,High,Medium,High,Low,Low,High,Medium,Rain,1
+2022-08-03,High,High,High,Low,Medium,Low,High,High,Medium,Rain,1
+2022-08-04,High,High,High,Low,High,Low,Low,High,Medium,Rain,1
+2022-08-05,Medium,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2022-08-06,Medium,High,High,Low,Medium,Medium,Medium,High,Medium,Rain,0
+2022-08-07,Medium,High,High,Low,High,Low,Medium,High,Low,Rain,0
+2022-08-08,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-08-09,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-08-10,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-08-11,Medium,High,High,Low,Medium,Low,High,High,Medium,No rain,0
+2022-08-12,High,High,High,Low,High,Low,High,High,Medium,Rain,1
+2022-08-13,High,High,High,Medium,High,Low,Medium,High,Medium,Rain,1
+2022-08-14,Medium,High,High,Low,High,Low,Medium,Medium,Low,Rain,0
+2022-08-15,Low,High,Medium,High,High,Low,Medium,Medium,Low,No rain,0
+2022-08-16,Low,High,Medium,Medium,Low,Low,Medium,High,Low,No rain,0
+2022-08-17,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2022-08-18,Medium,High,High,High,High,Low,Medium,Medium,Low,Rain,0
+2022-08-19,Low,High,Medium,High,Medium,Low,Medium,Medium,Low,Rain,0
+2022-08-20,Low,High,High,Medium,Medium,Medium,Medium,Medium,Low,Rain,0
+2022-08-21,Medium,High,High,Low,Medium,Low,Medium,High,Medium,Rain,0
+2022-08-22,Low,High,High,High,Low,Low,Medium,High,Low,Rain,0
+2022-08-23,Low,High,Medium,Medium,Low,Low,Medium,Low,Low,Rain,0
+2022-08-24,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-08-25,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,No rain,0
+2022-08-26,Low,Medium,Medium,High,Low,Medium,Medium,Low,Low,No rain,0
+2022-08-27,Low,Medium,Medium,Medium,Low,Medium,Medium,Low,Low,No rain,0
+2022-08-28,Low,Medium,High,Medium,Low,Medium,Low,Low,Medium,Rain,0
+2022-08-29,Medium,Medium,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2022-08-30,Medium,High,High,Low,Medium,Medium,Medium,Medium,Medium,Rain,0
+2022-08-31,Low,High,Medium,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2022-09-01,Low,Medium,Medium,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2022-09-02,Medium,High,Medium,Low,Medium,Medium,Low,High,Medium,No rain,0
+2022-09-03,Medium,Medium,High,Low,Medium,Medium,Low,High,Medium,Rain,0
+2022-09-04,High,High,High,Low,High,Medium,Low,High,Medium,Rain,1
+2022-09-05,Low,Medium,Medium,High,Low,Low,Medium,Medium,Low,Rain,0
+2022-09-06,Low,Medium,Low,High,Low,Medium,Low,Low,Low,No rain,0
+2022-09-07,Low,High,Low,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2022-09-08,Medium,High,Medium,Low,Medium,High,Low,High,Medium,No rain,0
+2022-09-09,High,High,Medium,Low,High,High,Low,High,High,No rain,1
+2022-09-10,High,High,Medium,Low,High,Medium,Medium,High,High,Rain,1
+2022-09-11,Medium,High,High,Low,High,Low,Low,High,Medium,No rain,0
+2022-09-12,High,High,High,Low,High,Medium,Low,High,High,No rain,1
+2022-09-13,High,High,High,Low,High,Medium,Medium,High,High,No rain,1
+2022-09-14,High,High,High,Low,High,Medium,Low,High,Medium,No rain,1
+2022-09-15,Medium,High,High,Low,High,Medium,Low,High,Medium,No rain,0
+2022-09-16,Medium,High,High,Low,Medium,Medium,Low,High,Medium,No rain,0
+2022-09-17,High,High,Medium,Low,High,High,Medium,High,High,No rain,1
+2022-09-18,Low,High,Low,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2022-09-19,Low,Medium,Low,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2022-09-20,Low,Medium,Low,Low,Low,Low,Low,Medium,Low,No rain,0
+2022-09-21,Medium,Medium,Medium,Medium,Low,High,Low,Medium,Medium,Rain,0
+2022-09-22,Medium,Medium,Low,High,Low,Low,Medium,Medium,Medium,Rain,0
+2022-09-23,Low,Medium,Low,High,Low,Low,Low,Medium,Low,Rain,0
+2022-09-24,Low,Medium,Low,Medium,Low,High,Low,Medium,Medium,No rain,0
+2022-09-25,High,Medium,Medium,Low,High,High,High,High,High,No rain,1
+2022-09-26,High,Medium,Medium,Medium,High,High,High,High,High,No rain,1
+2022-09-27,High,Medium,Medium,Medium,High,High,High,High,High,No rain,1
+2022-09-28,High,High,Medium,Low,High,High,High,High,High,Rain,1
+2022-09-29,High,High,Medium,Low,High,High,High,High,High,Rain,1
+2022-09-30,High,High,Medium,Low,High,High,Medium,High,High,No rain,1
+2022-10-01,High,Medium,High,Low,High,High,Low,High,High,Rain,1
+2022-10-02,Medium,Medium,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2022-10-03,Low,Medium,High,High,Low,Low,Medium,Low,Low,Rain,0
+2022-10-04,Low,Medium,Low,Medium,Low,Low,Medium,Medium,Low,No rain,0
+2022-10-05,Low,Medium,Low,Medium,Low,Medium,Medium,Low,Low,No rain,0
+2022-10-06,Medium,Medium,Medium,Low,Low,Medium,Low,Low,Medium,No rain,0
+2022-10-07,High,Medium,Medium,Medium,High,High,Low,Low,High,No rain,1
+2022-10-08,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2022-10-09,Low,Medium,Low,High,Low,Low,Medium,Medium,Low,Rain,0
+2022-10-10,Low,Medium,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-10-11,Low,Medium,Low,Medium,Low,High,Low,Low,Medium,No rain,0
+2022-10-12,High,Medium,Medium,Low,High,High,High,Low,High,No rain,1
+2022-10-13,High,Medium,Medium,Low,High,High,Medium,Low,High,No rain,1
+2022-10-14,High,Medium,Medium,Low,High,High,Medium,Medium,High,No rain,1
+2022-10-15,High,Medium,Medium,Medium,High,High,Medium,High,High,No rain,1
+2022-10-16,Low,Medium,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2022-10-17,Low,Medium,Low,High,Low,Low,Low,Low,Low,No rain,0
+2022-10-18,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2022-10-19,High,Medium,Low,Medium,Medium,High,High,Low,High,No rain,1
+2022-10-20,High,Medium,High,Low,High,High,Medium,Low,High,No rain,1
+2022-10-21,High,Medium,Medium,Low,High,High,Medium,Medium,High,No rain,1
+2022-10-22,Medium,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2022-10-23,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2022-10-24,Medium,Medium,Medium,Low,High,High,Medium,Low,Medium,No rain,0
+2022-10-25,High,Medium,High,Low,High,High,High,Medium,High,No rain,1
+2022-10-26,High,Medium,High,Medium,High,High,Low,Low,High,No rain,1
+2022-10-27,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2022-10-28,Medium,Medium,High,Low,Medium,High,Medium,Low,Medium,No rain,0
+2022-10-29,High,Medium,High,Medium,High,High,Low,Low,High,Rain,1
+2022-10-30,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2022-10-31,Medium,Medium,Low,High,Low,Medium,Low,Low,Medium,No rain,0
+2022-11-01,Low,Medium,Low,Medium,Low,High,Low,Low,Low,Rain,0
+2022-11-02,High,Medium,Medium,Low,Medium,High,Medium,Low,High,Rain,1
+2022-11-03,Medium,Medium,Medium,Low,Medium,Medium,Medium,Low,Medium,Rain,0
+2022-11-04,Low,Low,Low,Medium,Low,Medium,Low,Low,Low,Rain,0
+2022-11-05,Medium,Medium,Low,Medium,Medium,High,Low,Low,Medium,No rain,0
+2022-11-06,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2022-11-07,Medium,Medium,Low,High,Medium,High,Low,Low,Medium,No rain,0
+2022-11-08,High,Medium,Low,Medium,Medium,High,Low,Low,High,No rain,1
+2022-11-09,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2022-11-10,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2022-11-11,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2022-11-12,Low,Medium,Medium,High,Medium,Low,Medium,Low,Low,Rain,0
+2022-11-13,Low,Low,Medium,Medium,Low,Medium,Low,Low,Low,Rain,0
+2022-11-14,Medium,Low,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2022-11-15,Medium,Low,Medium,High,Medium,High,Low,Low,Medium,No rain,0
+2022-11-16,Medium,Low,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2022-11-17,High,Medium,Medium,Low,High,High,Medium,Low,High,No rain,1
+2022-11-18,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2022-11-19,High,Medium,Medium,Low,High,High,Medium,Low,High,No rain,1
+2022-11-20,High,Low,Medium,Low,High,High,Low,Low,High,No rain,1
+2022-11-21,High,Low,Medium,Medium,Medium,High,Low,Low,Medium,No rain,1
+2022-11-22,High,Low,High,Low,High,High,Medium,Low,High,No rain,1
+2022-11-23,High,Low,High,Low,High,High,Low,Low,High,No rain,1
+2022-11-24,High,Low,High,Low,High,High,Low,Low,High,No rain,1
+2022-11-25,High,Low,Low,High,High,Medium,Low,Low,High,No rain,1
+2022-11-26,Low,Low,Low,Medium,Low,Low,Low,Medium,Low,No rain,0
+2022-11-27,Medium,Low,Medium,Low,Medium,High,Medium,Low,Medium,Rain,0
+2022-11-28,Medium,Low,Low,High,Low,Medium,Medium,Low,High,Rain,0
+2022-11-29,Low,Low,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2022-11-30,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-01,Low,Low,Low,Medium,Low,Low,Low,Low,Low,No rain,0
+2022-12-02,High,Low,Medium,Low,Medium,High,High,Low,High,No rain,1
+2022-12-03,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2022-12-04,Low,Low,Low,Low,Low,High,Low,Low,Low,No rain,0
+2022-12-05,Medium,Low,Low,High,Low,High,Low,Low,Medium,No rain,0
+2022-12-06,Medium,Low,Low,High,Medium,High,Medium,Low,Medium,No rain,0
+2022-12-07,Medium,Low,Low,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2022-12-08,Medium,Low,Low,Medium,Medium,High,Low,Low,Medium,No rain,0
+2022-12-09,High,Low,Medium,Low,Medium,High,High,Low,High,No rain,1
+2022-12-10,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-11,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2022-12-12,High,Low,Low,High,Low,Medium,Medium,Medium,High,No rain,1
+2022-12-13,Medium,Low,Low,High,Low,Low,Low,Medium,High,No rain,0
+2022-12-14,Medium,Low,Low,Medium,Low,High,Low,Low,Medium,No rain,0
+2022-12-15,Low,Low,Low,High,Low,Medium,Low,Low,Medium,No rain,0
+2022-12-16,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-17,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-18,Low,Low,Low,Low,Low,Medium,Low,Low,Medium,No rain,0
+2022-12-19,Medium,Low,Medium,Medium,Medium,High,Low,Low,Medium,No rain,0
+2022-12-20,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2022-12-21,Low,Low,Medium,Medium,Low,Low,Low,Medium,Low,No rain,0
+2022-12-22,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-23,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2022-12-24,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2022-12-25,Medium,Low,Low,Low,Medium,High,Medium,Low,Medium,No rain,0
+2022-12-26,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2022-12-27,Low,Low,Low,High,Low,Medium,Low,Low,Low,No rain,0
+2022-12-28,Medium,Low,Low,Medium,Low,High,Low,Low,Medium,No rain,0
+2022-12-29,Low,Low,Low,High,Low,Medium,Low,Low,Low,No rain,0
+2022-12-30,Medium,Low,Low,Medium,Medium,High,High,Low,Medium,No rain,0
+2022-12-31,Medium,Low,Low,High,Medium,High,High,Low,Medium,No rain,0
+2023-01-01,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2023-01-02,Low,Low,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-01-03,Medium,Low,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2023-01-04,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2023-01-05,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-01-06,High,Low,Medium,High,High,High,Medium,Low,High,No rain,1
+2023-01-07,Medium,Low,Low,Low,Medium,High,Low,Low,High,No rain,0
+2023-01-08,Medium,Low,Medium,High,Medium,High,Low,Low,High,No rain,0
+2023-01-09,Low,Low,Medium,Medium,Low,High,Medium,Low,Medium,No rain,0
+2023-01-10,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-01-11,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2023-01-12,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2023-01-13,High,Low,Medium,High,High,High,Low,Low,High,Rain,1
+2023-01-14,Low,Low,Low,High,Low,Low,Low,Medium,Low,Rain,0
+2023-01-15,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-01-16,Medium,Low,Low,Medium,Low,Medium,Low,Low,Medium,No rain,0
+2023-01-17,Medium,Low,Low,High,Low,Low,Low,Medium,High,No rain,0
+2023-01-18,Medium,Low,Medium,Medium,Medium,Medium,Medium,Low,High,No rain,0
+2023-01-19,Medium,Low,Low,High,Low,Medium,Low,Low,High,No rain,0
+2023-01-20,Low,Low,Low,Medium,Low,Low,Low,Medium,Medium,No rain,0
+2023-01-21,High,Low,Medium,Low,Medium,Medium,High,Low,Medium,No rain,1
+2023-01-22,High,Low,Medium,Medium,Medium,Medium,High,Low,High,Rain,1
+2023-01-23,High,Low,Low,High,Medium,Low,Low,Medium,High,Rain,1
+2023-01-24,Low,Low,Low,High,Low,Low,Low,Medium,Medium,Rain,0
+2023-01-25,Medium,Low,Low,Low,Medium,Medium,High,Low,Medium,No rain,0
+2023-01-26,Medium,Low,Low,High,Low,Medium,Low,Low,Medium,No rain,0
+2023-01-27,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-01-28,Low,Low,Low,High,Low,Low,Low,Medium,High,No rain,0
+2023-01-29,Medium,Low,Low,High,Low,Medium,Low,Medium,High,No rain,0
+2023-01-30,High,Low,Medium,Low,Medium,High,High,Low,High,No rain,1
+2023-01-31,High,Low,Low,High,High,High,High,Low,High,No rain,1
+2023-02-01,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-02-02,Low,Low,Low,Low,Low,Medium,Low,Low,Low,No rain,0
+2023-02-03,Medium,Low,Low,Low,Medium,High,High,Low,Medium,No rain,0
+2023-02-04,Medium,Low,Low,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2023-02-05,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-02-06,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-02-07,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-02-08,Medium,Low,Low,Medium,Medium,High,Low,Medium,Low,No rain,0
+2023-02-09,High,Low,High,Medium,High,High,High,Low,Medium,Rain,1
+2023-02-10,High,Low,High,Medium,High,High,Low,Low,High,Rain,1
+2023-02-11,High,Low,High,Low,High,High,Low,Low,High,Rain,1
+2023-02-12,High,Low,High,Medium,High,High,Low,Low,High,Rain,1
+2023-02-13,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-02-14,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2023-02-15,Medium,Low,High,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2023-02-16,High,Low,High,Low,Medium,High,Low,Low,Medium,No rain,1
+2023-02-17,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2023-02-18,High,Low,High,High,High,High,Low,Low,High,Rain,1
+2023-02-19,Low,Low,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2023-02-20,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2023-02-21,Medium,Low,Medium,Medium,Low,High,Medium,Low,Medium,No rain,0
+2023-02-22,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-02-23,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-02-24,Medium,Low,Low,High,Low,High,Low,Medium,Medium,No rain,0
+2023-02-25,Low,Low,Low,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2023-02-26,High,Low,Low,Medium,Medium,High,High,Medium,High,No rain,1
+2023-02-27,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2023-02-28,High,Low,Medium,High,Medium,High,Low,Medium,High,No rain,1
+2023-03-01,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2023-03-02,Medium,Low,Low,Medium,Low,High,Medium,Low,Medium,No rain,0
+2023-03-03,High,Medium,Low,High,Medium,High,Low,Low,High,No rain,1
+2023-03-04,High,Low,Medium,Medium,High,High,High,Medium,High,No rain,1
+2023-03-05,High,Low,High,Low,High,High,High,Medium,High,No rain,1
+2023-03-06,High,Medium,Low,High,High,High,Low,Medium,High,No rain,1
+2023-03-07,High,Medium,Low,Medium,High,High,High,High,High,No rain,1
+2023-03-08,High,Medium,Low,High,High,High,High,High,High,No rain,1
+2023-03-09,High,Medium,Low,Medium,Medium,High,High,Low,High,No rain,1
+2023-03-10,High,Medium,Low,High,Medium,High,Medium,Medium,High,No rain,1
+2023-03-11,Medium,Medium,Low,High,Low,Low,Low,Medium,High,Rain,0
+2023-03-12,Low,Low,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2023-03-13,Medium,Medium,Low,Low,Medium,High,Medium,Low,High,Rain,0
+2023-03-14,High,Medium,Low,High,Medium,High,High,Low,High,No rain,1
+2023-03-15,Medium,Low,Low,High,Low,Low,Low,Medium,High,No rain,0
+2023-03-16,Low,Low,Low,Medium,Low,Medium,Low,Low,Medium,No rain,0
+2023-03-17,Medium,Low,Medium,Low,Low,Medium,Low,Low,High,No rain,0
+2023-03-18,Medium,Medium,Low,Medium,Low,High,Low,Medium,Medium,No rain,0
+2023-03-19,High,Low,Medium,Medium,Medium,High,Low,Medium,High,Rain,1
+2023-03-20,High,Medium,High,Medium,High,High,Medium,Medium,High,Rain,1
+2023-03-21,High,Medium,High,Medium,High,High,Low,Medium,High,Rain,1
+2023-03-22,High,Medium,Low,High,Low,Low,Medium,Medium,High,No rain,1
+2023-03-23,High,Low,Low,High,Low,Low,Medium,Medium,High,No rain,1
+2023-03-24,Medium,Low,Low,Medium,Low,Medium,Medium,Medium,High,Rain,0
+2023-03-25,Medium,Medium,Low,Low,Low,Medium,Low,Medium,High,Rain,0
+2023-03-26,Medium,Medium,Low,Medium,Low,Medium,Low,Medium,High,Rain,0
+2023-03-27,Medium,Medium,Low,High,Low,High,Low,Medium,High,No rain,0
+2023-03-28,High,Medium,Low,Medium,High,High,High,Medium,High,No rain,1
+2023-03-29,High,Medium,Low,Medium,High,High,High,High,High,No rain,1
+2023-03-30,High,Medium,Low,High,High,High,High,High,High,No rain,1
+2023-03-31,High,Medium,Low,High,Medium,High,Medium,High,High,No rain,1
+2023-04-01,High,Medium,Medium,High,Medium,High,Medium,High,High,Rain,1
+2023-04-02,High,Medium,Medium,High,High,High,High,High,High,Rain,1
+2023-04-03,High,Medium,Medium,Medium,High,High,High,High,High,Rain,1
+2023-04-04,Medium,Medium,Medium,High,Low,Low,Medium,High,Medium,Rain,0
+2023-04-05,Medium,Medium,Medium,High,Low,Low,Low,High,Low,Rain,0
+2023-04-06,Low,Medium,Low,High,Low,Low,Low,Medium,Medium,Rain,0
+2023-04-07,Low,Medium,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2023-04-08,Low,Medium,Low,High,Low,Medium,Low,Medium,Medium,Rain,0
+2023-04-09,High,Medium,Low,Medium,Medium,High,Medium,Medium,High,No rain,1
+2023-04-10,High,Medium,Low,High,Medium,High,Medium,Medium,High,No rain,1
+2023-04-11,High,Medium,Low,High,Low,Low,Medium,High,High,No rain,1
+2023-04-12,High,Medium,Low,High,Low,High,Medium,Medium,High,No rain,1
+2023-04-13,High,Medium,Low,Medium,High,High,Medium,Low,High,No rain,1
+2023-04-14,High,Medium,Low,High,Medium,Medium,Medium,Medium,High,No rain,1
+2023-04-15,Medium,Medium,Low,High,Low,Medium,Medium,Medium,High,No rain,0
+2023-04-16,Medium,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2023-04-17,High,Medium,Medium,Low,Medium,High,High,Medium,High,No rain,1
+2023-04-18,High,Medium,Low,High,Medium,High,Low,High,High,No rain,1
+2023-04-19,High,Medium,Medium,High,Medium,High,High,High,High,No rain,1
+2023-04-20,Medium,Medium,Low,High,Low,Low,Medium,High,High,Rain,0
+2023-04-21,Low,Medium,Low,High,Low,Low,Low,High,Medium,Rain,0
+2023-04-22,Medium,Medium,Medium,Medium,Low,Low,Low,Medium,Low,Rain,0
+2023-04-23,Medium,Medium,Low,Medium,Medium,High,Medium,Medium,Medium,No rain,0
+2023-04-24,Medium,Medium,Medium,High,Low,Medium,Low,Medium,High,Rain,0
+2023-04-25,Medium,Medium,Low,High,Low,Low,Low,Medium,High,Rain,0
+2023-04-26,Low,Medium,Low,High,Low,Medium,Low,Medium,Medium,Rain,0
+2023-04-27,High,Medium,High,Low,Medium,High,Medium,Medium,High,Rain,1
+2023-04-28,High,Medium,Medium,High,Low,Medium,Low,Medium,High,Rain,1
+2023-04-29,Low,Medium,Low,High,Low,Low,Low,Medium,Medium,Rain,0
+2023-04-30,Low,Medium,Low,High,Low,Medium,Low,High,Medium,Rain,0
+2023-05-01,High,Medium,Low,High,Medium,High,High,High,High,Rain,1
+2023-05-02,High,High,Medium,High,High,Medium,High,High,High,Rain,1
+2023-05-03,High,High,Medium,Medium,High,Medium,High,High,High,No rain,1
+2023-05-04,Medium,Medium,High,Medium,High,Low,Low,High,Medium,Rain,0
+2023-05-05,Low,Medium,Medium,High,Low,Low,Medium,Medium,Low,Rain,0
+2023-05-06,Low,Medium,Low,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2023-05-07,Low,Medium,Low,High,Low,Medium,Low,Medium,Low,Rain,0
+2023-05-08,Medium,Medium,Low,Medium,Low,Medium,Low,High,Medium,No rain,0
+2023-05-09,Medium,Medium,Low,High,Medium,High,Medium,High,High,No rain,0
+2023-05-10,Medium,High,Low,High,Low,High,Medium,High,Medium,Rain,0
+2023-05-11,High,Medium,Low,High,Medium,High,High,High,High,Rain,1
+2023-05-12,High,High,Low,High,Medium,High,Medium,High,High,Rain,1
+2023-05-13,Low,High,Low,High,Low,Medium,Low,High,Low,Rain,0
+2023-05-14,Medium,High,Low,Medium,Medium,High,High,High,High,No rain,0
+2023-05-15,High,High,Low,High,High,Medium,High,High,High,No rain,1
+2023-05-16,High,High,Low,High,High,Medium,Low,High,High,Rain,1
+2023-05-17,Medium,High,Low,High,Medium,Low,Low,High,Medium,Rain,0
+2023-05-18,Medium,High,Low,High,Medium,Medium,Low,High,Medium,Rain,0
+2023-05-19,High,High,Medium,High,High,High,Medium,Low,Medium,Rain,1
+2023-05-20,High,Medium,Low,High,Low,Low,Medium,Medium,High,Rain,1
+2023-05-21,High,Medium,Low,High,Low,Low,Low,High,High,No rain,1
+2023-05-22,Low,High,Low,Medium,Low,Low,Low,High,Medium,No rain,0
+2023-05-23,Low,High,Low,High,Low,Medium,Low,High,Medium,No rain,0
+2023-05-24,Medium,High,Low,High,Medium,Medium,High,High,High,Rain,0
+2023-05-25,High,High,Low,Medium,Medium,Low,Low,High,High,Rain,1
+2023-05-26,High,High,Low,High,Medium,Medium,Low,High,High,Rain,1
+2023-05-27,High,Medium,High,Medium,High,Medium,Medium,High,High,Rain,1
+2023-05-28,Medium,High,Medium,Low,Medium,Low,Medium,High,Medium,Rain,0
+2023-05-29,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,No rain,0
+2023-05-30,High,High,Low,Medium,Medium,Medium,Low,High,Medium,Rain,1
+2023-05-31,High,High,Medium,Medium,High,Medium,Medium,High,High,No rain,1
+2023-06-01,Medium,High,Low,High,Medium,Medium,Medium,High,High,No rain,0
+2023-06-02,Low,High,Low,Medium,Low,Low,Low,High,Low,Rain,0
+2023-06-03,Low,High,Low,Low,Low,Medium,Low,High,Low,Rain,0
+2023-06-04,Low,High,Low,High,Low,Medium,Low,High,Low,No rain,0
+2023-06-05,Medium,High,Low,High,Low,Medium,Low,High,Medium,Rain,0
+2023-06-06,Low,High,Low,High,Low,Low,Low,High,Low,Rain,0
+2023-06-07,Medium,High,Low,High,Low,Medium,Low,High,Medium,Rain,0
+2023-06-08,Low,High,Low,High,Low,Low,Low,High,Medium,Rain,0
+2023-06-09,Low,High,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2023-06-10,Low,High,Low,High,Low,Low,Low,High,Low,No rain,0
+2023-06-11,Low,High,Low,Low,Low,Medium,Low,High,Low,Rain,0
+2023-06-12,Low,High,Low,Low,Low,Low,Medium,High,Low,Rain,0
+2023-06-13,Low,High,Low,Medium,Low,Medium,Low,High,Low,No rain,0
+2023-06-14,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,No rain,0
+2023-06-15,Medium,High,Low,Medium,High,Medium,High,High,High,No rain,0
+2023-06-16,High,High,Low,High,High,Medium,High,High,High,No rain,1
+2023-06-17,High,High,Low,High,Medium,Medium,Medium,High,High,No rain,1
+2023-06-18,High,High,Low,Medium,High,Low,Medium,High,High,Rain,1
+2023-06-19,High,High,Medium,High,High,Medium,Medium,High,High,Rain,1
+2023-06-20,Medium,High,Low,Medium,Low,Low,Medium,High,Low,Rain,0
+2023-06-21,Low,High,Low,Medium,Low,High,Low,High,Low,No rain,0
+2023-06-22,Medium,High,Low,Medium,Low,High,Low,High,Medium,No rain,0
+2023-06-23,Medium,High,Low,High,Medium,Medium,High,High,High,Rain,0
+2023-06-24,Medium,High,Low,High,Medium,Medium,High,High,Medium,Rain,0
+2023-06-25,High,High,Low,High,High,Low,High,High,High,No rain,1
+2023-06-26,Medium,High,Medium,Low,Medium,Low,Low,High,Medium,Rain,0
+2023-06-27,Medium,High,Low,Medium,Medium,Medium,Low,High,Medium,No rain,0
+2023-06-28,Medium,High,Medium,Low,Medium,Medium,Medium,High,Medium,Rain,0
+2023-06-29,Low,High,Low,Medium,Low,Medium,Low,High,Low,Rain,0
+2023-06-30,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,No rain,0
+2023-07-01,Medium,High,Low,High,Medium,Medium,Medium,High,Medium,No rain,0
+2023-07-02,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,No rain,0
+2023-07-03,High,High,Medium,Low,High,Low,Low,High,Medium,Rain,1
+2023-07-04,Low,High,Medium,Low,Medium,Low,Medium,High,Low,Rain,0
+2023-07-05,Low,High,Low,High,Low,Medium,Low,High,Medium,No rain,0
+2023-07-06,Low,High,Low,High,Low,High,Low,High,Medium,No rain,0
+2023-07-07,Low,High,Low,Medium,Low,Medium,Low,High,Medium,Rain,0
+2023-07-08,Low,High,Low,High,Low,Low,Low,High,Low,Rain,0
+2023-07-09,Low,High,Low,Medium,Low,Low,Low,High,Low,No rain,0
+2023-07-10,Medium,High,Low,Medium,Medium,Medium,Medium,High,Medium,Rain,0
+2023-07-11,Medium,High,Medium,High,High,Low,Low,High,Medium,Rain,0
+2023-07-12,Medium,High,High,Low,High,Low,Medium,High,Low,Rain,0
+2023-07-13,Low,High,High,Low,High,Low,High,Medium,Low,Rain,0
+2023-07-14,Medium,High,Medium,High,Medium,Low,Medium,Medium,Low,Rain,0
+2023-07-15,Low,High,Low,High,Low,Low,Low,High,Low,Rain,0
+2023-07-16,Low,High,Low,Medium,Low,Low,Low,High,Low,No rain,0
+2023-07-17,Medium,High,Low,Medium,Medium,Medium,Low,High,Medium,No rain,0
+2023-07-18,Medium,High,Medium,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2023-07-19,High,High,Low,Medium,Medium,Medium,Low,High,Medium,No rain,1
+2023-07-20,High,High,Medium,Medium,Medium,Medium,Medium,High,Medium,Rain,1
+2023-07-21,Medium,High,High,High,High,Low,Medium,High,Medium,Rain,0
+2023-07-22,Medium,High,High,Low,High,Low,Medium,Medium,Low,Rain,0
+2023-07-23,Medium,High,Medium,Low,Medium,Low,Low,High,Low,Rain,0
+2023-07-24,Medium,High,Medium,Medium,High,Medium,Low,High,Medium,Rain,0
+2023-07-25,Low,High,High,Low,Low,Low,Low,High,Low,Rain,0
+2023-07-26,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2023-07-27,Medium,High,High,Low,Medium,Low,Low,High,Medium,Rain,0
+2023-07-28,Low,High,High,Low,Low,Low,Low,Medium,Low,Rain,0
+2023-07-29,Low,High,High,Low,Medium,Low,Medium,Low,Low,Rain,0
+2023-07-30,Low,High,High,High,Low,Low,Medium,Low,Low,Rain,0
+2023-07-31,Low,High,High,High,Low,Low,Low,Low,Low,Rain,0
+2023-08-01,Medium,High,High,Medium,Medium,Low,Low,Low,Low,Rain,0
+2023-08-02,Medium,High,High,High,Medium,Low,Low,Medium,Low,Rain,0
+2023-08-03,High,High,High,Medium,Medium,Low,Low,Medium,Medium,Rain,1
+2023-08-04,Medium,High,High,Low,Medium,Low,Medium,Medium,Medium,Rain,0
+2023-08-05,Low,High,High,Medium,Low,Low,Low,Medium,Low,Rain,0
+2023-08-06,Low,High,High,Low,High,Low,Low,Medium,Low,Rain,0
+2023-08-07,Medium,High,High,Medium,Medium,Medium,Low,Medium,Medium,Rain,0
+2023-08-08,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2023-08-09,High,High,High,Low,High,Low,Medium,High,High,Rain,1
+2023-08-10,High,High,High,Medium,High,Low,Low,High,High,Rain,1
+2023-08-11,High,High,High,Low,High,Medium,Low,Medium,Medium,Rain,1
+2023-08-12,Low,High,High,Low,Medium,Low,Low,Medium,Low,Rain,0
+2023-08-13,Low,High,High,Low,Medium,Low,Low,High,Low,Rain,0
+2023-08-14,Medium,High,High,Low,Medium,Low,Low,High,Medium,No rain,0
+2023-08-15,Medium,High,High,Low,Medium,Low,Low,High,Medium,Rain,0
+2023-08-16,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2023-08-17,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2023-08-18,Medium,High,Medium,Medium,Low,Medium,Low,High,Medium,Rain,0
+2023-08-19,Medium,High,Medium,Low,Medium,Medium,Low,High,Medium,No rain,0
+2023-08-20,High,High,High,Low,High,Medium,Low,High,Medium,Rain,1
+2023-08-21,Low,High,High,Low,Medium,Low,Low,High,Low,Rain,0
+2023-08-22,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2023-08-23,Low,High,High,Low,Low,Low,Low,High,Low,Rain,0
+2023-08-24,Low,High,High,Low,Low,Low,Medium,Medium,Low,Rain,0
+2023-08-25,Low,High,High,Low,Medium,Low,Low,Medium,Low,Rain,0
+2023-08-26,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2023-08-27,Medium,High,High,Low,High,Medium,Low,Medium,Medium,Rain,0
+2023-08-28,Low,High,High,Medium,Medium,Medium,Low,Medium,Low,Rain,0
+2023-08-29,Low,High,High,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2023-08-30,Low,High,High,Low,Low,Medium,Low,Medium,Low,Rain,0
+2023-08-31,Medium,High,High,Low,Medium,Low,Low,Medium,Low,Rain,0
+2023-09-01,Medium,High,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2023-09-02,Medium,High,High,Low,Medium,Medium,Low,High,Medium,Rain,0
+2023-09-03,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2023-09-04,High,High,High,Low,High,Medium,Medium,High,Medium,Rain,1
+2023-09-05,High,High,High,Low,High,Medium,Low,High,High,No rain,1
+2023-09-06,High,High,High,Low,High,Medium,High,High,High,No rain,1
+2023-09-07,High,High,High,Medium,High,Medium,Medium,High,High,Rain,1
+2023-09-08,High,High,High,Low,High,Medium,Low,Medium,High,Rain,1
+2023-09-09,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2023-09-10,Medium,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2023-09-11,Medium,Medium,High,Low,Medium,Low,Medium,Medium,Medium,Rain,0
+2023-09-12,Low,Medium,Medium,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2023-09-13,Low,Medium,High,Medium,Medium,Medium,Low,Medium,Medium,No rain,0
+2023-09-14,Medium,Medium,High,Low,Medium,Medium,Low,High,Medium,No rain,0
+2023-09-15,Medium,High,High,Low,Medium,High,Medium,High,Medium,No rain,0
+2023-09-16,High,High,High,Low,High,High,Low,High,High,No rain,1
+2023-09-17,High,High,High,Medium,High,Medium,Medium,High,High,Rain,1
+2023-09-18,Medium,High,High,Low,Medium,Medium,Low,High,Medium,Rain,0
+2023-09-19,Low,Medium,Medium,Medium,Low,Medium,Medium,Low,Low,Rain,0
+2023-09-20,Low,Medium,Medium,Low,Low,Medium,Medium,Low,Low,Rain,0
+2023-09-21,Medium,Medium,High,Low,Medium,Medium,Low,Medium,Medium,Rain,0
+2023-09-22,Low,Medium,High,Medium,Low,Medium,Medium,Medium,Low,Rain,0
+2023-09-23,Low,Medium,Medium,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2023-09-24,Medium,Medium,High,Low,Medium,High,Low,Low,Medium,Rain,0
+2023-09-25,Medium,Medium,High,Low,Medium,High,Low,Low,Medium,Rain,0
+2023-09-26,High,Medium,High,Low,High,High,Low,Low,High,No rain,1
+2023-09-27,Medium,Medium,Medium,Medium,Medium,Medium,Low,Low,Medium,No rain,0
+2023-09-28,Low,Medium,Medium,Medium,Low,High,Low,Low,Low,No rain,0
+2023-09-29,Medium,Medium,Medium,Medium,Low,Medium,Low,Medium,Medium,No rain,0
+2023-09-30,Low,Medium,Medium,Medium,Low,Low,Low,Medium,Low,No rain,0
+2023-10-01,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-10-02,Medium,Medium,High,Low,Medium,High,Medium,Low,Medium,No rain,0
+2023-10-03,Medium,Medium,Medium,Low,Medium,Medium,Low,Medium,Medium,Rain,0
+2023-10-04,Low,Medium,Low,High,Low,Medium,Low,Low,Low,Rain,0
+2023-10-05,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-10-06,Low,Medium,Medium,Low,Low,Medium,Low,Low,Medium,No rain,0
+2023-10-07,High,Medium,Medium,Medium,Medium,High,Medium,Low,High,Rain,1
+2023-10-08,Medium,Medium,Medium,Medium,Medium,High,Low,Low,Medium,Rain,0
+2023-10-09,Low,Medium,Medium,High,Low,Low,Low,Medium,Low,Rain,0
+2023-10-10,Low,Medium,Medium,Low,Medium,Medium,Low,Medium,Low,No rain,0
+2023-10-11,Medium,Medium,Medium,Low,Medium,High,Low,Medium,Medium,Rain,0
+2023-10-12,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2023-10-13,High,Medium,High,Medium,Medium,High,Low,Low,Medium,Rain,1
+2023-10-14,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-10-15,Low,Medium,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-10-16,Low,Medium,Medium,Medium,Medium,Medium,Low,Low,Low,No rain,0
+2023-10-17,Medium,Medium,High,Low,High,High,Low,Medium,High,Rain,0
+2023-10-18,Low,Medium,Medium,High,Low,Medium,Low,Medium,Low,Rain,0
+2023-10-19,Low,Medium,Low,High,Low,Low,Low,Low,Low,Rain,0
+2023-10-20,Low,Medium,Low,High,Low,Low,Low,Low,Low,No rain,0
+2023-10-21,Low,Medium,Low,High,Low,High,Low,Low,Medium,No rain,0
+2023-10-22,Medium,Medium,Low,Medium,Medium,High,Low,Low,Medium,No rain,0
+2023-10-23,High,Medium,Medium,Low,High,High,High,Low,High,No rain,1
+2023-10-24,High,Medium,Medium,Medium,High,High,Low,Medium,High,No rain,1
+2023-10-25,High,Medium,Low,High,High,High,Low,Medium,High,No rain,1
+2023-10-26,Low,Medium,Medium,Medium,Low,High,Low,Low,Medium,No rain,0
+2023-10-27,Medium,Medium,Medium,Low,Medium,High,Low,Low,High,No rain,0
+2023-10-28,High,Medium,Medium,Low,High,High,High,Low,High,No rain,1
+2023-10-29,High,Medium,High,Low,High,High,Low,Low,High,No rain,1
+2023-10-30,High,Medium,Medium,Medium,High,High,Low,Medium,High,No rain,1
+2023-10-31,High,Medium,Medium,Low,High,High,Low,Medium,High,No rain,1
+2023-11-01,High,Medium,High,Low,High,High,Low,Medium,High,No rain,1
+2023-11-02,High,Medium,Medium,High,High,Medium,Low,Medium,High,No rain,1
+2023-11-03,Low,Medium,Medium,High,Low,Medium,Low,Low,Medium,No rain,0
+2023-11-04,Medium,Medium,High,Low,Medium,High,Low,Low,High,Rain,0
+2023-11-05,Medium,Medium,High,High,Medium,Medium,Low,Low,Medium,Rain,0
+2023-11-06,Low,Low,Low,High,Low,Low,Low,Medium,Medium,Rain,0
+2023-11-07,Medium,Low,Medium,Medium,Low,High,Low,Low,Medium,Rain,0
+2023-11-08,Medium,Medium,Medium,Medium,Medium,High,Low,Low,Medium,No rain,0
+2023-11-09,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-11-10,Low,Low,Low,Low,Low,Low,Low,Low,Low,No rain,0
+2023-11-11,Low,Low,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-11-12,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-11-13,Medium,Low,Medium,Medium,Low,High,Low,Low,Medium,No rain,0
+2023-11-14,High,Low,Low,Low,Medium,High,Low,Low,High,No rain,1
+2023-11-15,High,Low,Medium,Low,High,High,Low,Low,High,No rain,1
+2023-11-16,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-11-17,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-11-18,Medium,Low,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2023-11-19,Medium,Medium,Low,High,Medium,High,Low,Low,Medium,No rain,0
+2023-11-20,High,Medium,Medium,Low,High,High,High,Low,High,No rain,1
+2023-11-21,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2023-11-22,High,Medium,Medium,High,High,High,Low,Low,High,No rain,1
+2023-11-23,Low,Low,Low,High,Low,Low,Low,Medium,Low,Rain,0
+2023-11-24,Low,Low,Low,Medium,Low,Medium,Low,Low,Low,No rain,0
+2023-11-25,Medium,Low,Medium,Medium,High,High,Medium,Low,Medium,No rain,0
+2023-11-26,High,Low,Medium,Low,High,High,Low,Low,High,No rain,1
+2023-11-27,Medium,Low,Medium,High,Medium,High,Low,Low,Medium,Rain,0
+2023-11-28,Low,Low,Low,Medium,Low,Medium,Low,Low,Low,Rain,0
+2023-11-29,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-11-30,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-12-01,Medium,Low,Low,High,Low,High,Low,Low,Medium,No rain,0
+2023-12-02,Medium,Low,Low,High,Medium,High,Medium,Low,Medium,No rain,0
+2023-12-03,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-12-04,High,Low,Low,Medium,High,High,High,Low,High,No rain,1
+2023-12-05,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-12-06,High,Low,Low,Medium,Low,Medium,Low,Low,High,No rain,1
+2023-12-07,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2023-12-08,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2023-12-09,High,Low,Medium,Low,High,High,High,Low,High,Rain,1
+2023-12-10,Medium,Low,Low,Low,High,High,High,Low,Medium,Rain,0
+2023-12-11,Medium,Low,High,Low,Medium,Medium,Low,Low,Medium,Rain,0
+2023-12-12,High,Low,High,Medium,High,High,Low,Low,Medium,Rain,1
+2023-12-13,High,Low,High,Medium,High,High,Low,Low,High,Rain,1
+2023-12-14,High,Low,High,Low,High,High,Low,Low,Medium,Rain,1
+2023-12-15,Low,Low,Medium,High,Low,Low,Low,Medium,Low,Rain,0
+2023-12-16,Low,Low,Medium,High,Low,Low,High,Medium,Low,No rain,0
+2023-12-17,Low,Low,Medium,Medium,Low,Medium,Medium,Low,Low,No rain,0
+2023-12-18,High,Low,High,Low,High,High,Medium,Low,Medium,No rain,1
+2023-12-19,Medium,Low,Medium,High,Low,Medium,Low,Medium,Medium,No rain,0
+2023-12-20,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2023-12-21,Low,Low,Medium,High,Low,Low,Low,Medium,Low,No rain,0
+2023-12-22,Medium,Low,Medium,High,Low,High,Low,Low,Medium,No rain,0
+2023-12-23,Medium,Low,Medium,High,Medium,High,Medium,Low,Medium,No rain,0
+2023-12-24,Medium,Low,Medium,High,Medium,High,Medium,Low,Medium,No rain,0
+2023-12-25,High,Low,High,High,High,High,Medium,Low,High,No rain,1
+2023-12-26,High,Low,Medium,High,High,High,Low,Low,Medium,No rain,1
+2023-12-27,Medium,Low,Medium,Low,High,High,Low,Low,Medium,No rain,0
+2023-12-28,High,Low,Medium,Medium,High,High,Low,Low,High,No rain,1
+2023-12-29,High,Low,High,Low,High,High,Low,Low,High,No rain,1
+2023-12-30,High,Low,High,Medium,High,High,Low,Low,High,Rain,1
+2023-12-31,Low,Low,Medium,High,Low,Medium,Low,Medium,Low,No rain,0
+2024-01-01,High,Low,High,Low,High,High,Low,Low,High,No rain,1
+2024-01-02,High,Low,Medium,High,High,High,Low,Low,High,No rain,1
+2024-01-03,Medium,Low,Medium,High,Low,High,Low,Low,Low,No rain,0
+2024-01-04,High,Low,Medium,High,High,High,Low,Low,High,No rain,1
+2024-01-05,Medium,Low,Medium,Medium,Medium,High,Low,Low,Medium,No rain,0
+2024-01-06,Low,Low,Low,High,Low,Low,Low,Low,Low,No rain,0
+2024-01-07,Low,Low,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-01-08,High,Low,High,Low,High,High,Medium,Low,High,No rain,1
+2024-01-09,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,Rain,0
+2024-01-10,Medium,Low,Medium,Medium,Medium,High,Low,Low,Medium,No rain,0
+2024-01-11,High,Low,Medium,Medium,High,High,Medium,Low,High,No rain,1
+2024-01-12,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2024-01-13,High,Low,High,Medium,High,High,Medium,Low,High,No rain,1
+2024-01-14,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-01-15,Medium,Low,Medium,Medium,Medium,High,Low,Low,Medium,No rain,0
+2024-01-16,High,Low,High,Low,High,High,Low,Low,High,Rain,1
+2024-01-17,High,Low,High,Low,High,High,Low,Low,High,Rain,1
+2024-01-18,High,Low,Medium,Low,High,High,Medium,Low,High,Rain,1
+2024-01-19,High,Low,Medium,Low,High,High,High,Low,High,Rain,1
+2024-01-20,Medium,Low,Medium,Medium,High,High,High,Low,Medium,Rain,0
+2024-01-21,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-01-22,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-01-23,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-01-24,Low,Low,Medium,High,Low,Medium,Low,Medium,Low,No rain,0
+2024-01-25,Low,Low,Low,High,Low,Medium,Low,Medium,Low,No rain,0
+2024-01-26,Low,Low,Low,High,Low,Medium,Medium,Medium,Medium,No rain,0
+2024-01-27,Medium,Low,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-01-28,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2024-01-29,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2024-01-30,High,Low,High,Low,High,High,Medium,Low,High,No rain,1
+2024-01-31,High,Low,Medium,Medium,High,Medium,Low,Low,Medium,No rain,1
+2024-02-01,Medium,Low,Low,Low,Medium,Medium,High,Low,Medium,No rain,0
+2024-02-02,High,Low,Medium,Low,High,High,Low,Low,Medium,No rain,1
+2024-02-03,High,Low,Medium,Low,High,High,Medium,Low,High,No rain,1
+2024-02-04,High,Low,Medium,Low,High,High,High,Low,High,Rain,1
+2024-02-05,High,Low,Medium,Low,High,High,High,Low,High,Rain,1
+2024-02-06,High,Low,Medium,Medium,Medium,Medium,Low,Medium,Medium,Rain,1
+2024-02-07,Medium,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-02-08,Medium,Low,Low,Medium,Low,Low,Low,Medium,Low,No rain,0
+2024-02-09,High,Low,Low,High,Medium,Medium,Medium,Medium,Medium,No rain,1
+2024-02-10,Medium,Low,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2024-02-11,High,Low,Low,High,Medium,Medium,Medium,Medium,High,No rain,1
+2024-02-12,High,Low,Medium,Low,High,High,High,Medium,High,No rain,1
+2024-02-13,High,Medium,Medium,Low,High,High,High,Medium,High,No rain,1
+2024-02-14,High,Low,Medium,High,Medium,Medium,Low,Medium,High,No rain,1
+2024-02-15,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-02-16,High,Low,Medium,Low,Medium,Medium,Medium,Medium,High,No rain,1
+2024-02-17,High,Low,High,Low,High,High,Medium,Low,High,No rain,1
+2024-02-18,High,Low,High,High,High,Medium,Medium,Low,High,Rain,1
+2024-02-19,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-02-20,Low,Low,Low,Medium,Low,Low,Low,Medium,Low,Rain,0
+2024-02-21,Low,Low,Low,High,Low,Low,Low,Medium,Low,Rain,0
+2024-02-22,Low,Low,Low,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2024-02-23,Medium,Low,Medium,Low,Medium,High,High,Low,Low,No rain,0
+2024-02-24,High,Low,Medium,Low,High,High,Medium,Low,Medium,No rain,1
+2024-02-25,Medium,Low,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-02-26,High,Low,Low,Medium,High,Medium,High,Medium,High,No rain,1
+2024-02-27,High,Low,High,High,Medium,High,Medium,Low,High,Rain,1
+2024-02-28,High,Low,Medium,Medium,Medium,High,Low,Low,High,Rain,1
+2024-02-29,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-03-01,Low,Low,Low,Medium,Low,Low,Low,Medium,Medium,No rain,0
+2024-03-02,Medium,Low,Low,High,Low,Medium,Low,Low,High,No rain,0
+2024-03-03,Medium,Low,Low,High,Medium,Medium,Low,Medium,High,No rain,0
+2024-03-04,Medium,Low,Medium,Low,High,High,High,Medium,Medium,Rain,0
+2024-03-05,High,Low,High,Low,High,Medium,Low,Medium,High,Rain,1
+2024-03-06,Medium,Low,Low,Medium,Medium,Medium,Low,Medium,Medium,Rain,0
+2024-03-07,High,Low,Low,High,Medium,Medium,Low,Low,Medium,No rain,1
+2024-03-08,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-03-09,High,Low,Low,Low,Medium,High,High,Low,High,No rain,1
+2024-03-10,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2024-03-11,High,Medium,Low,High,Medium,High,Low,Medium,High,No rain,1
+2024-03-12,Medium,Medium,Low,Medium,Low,Medium,Low,Medium,Medium,No rain,0
+2024-03-13,High,Medium,Low,Medium,Medium,High,Low,Medium,High,No rain,1
+2024-03-14,High,Medium,Low,High,Medium,High,Medium,Medium,High,No rain,1
+2024-03-15,High,Medium,Low,High,High,High,High,High,High,No rain,1
+2024-03-16,High,Medium,Low,High,High,Medium,High,High,High,Rain,1
+2024-03-17,Low,Medium,Low,High,Low,Low,Low,Medium,Medium,Rain,0
+2024-03-18,High,Medium,Low,High,Low,High,Medium,Medium,High,No rain,1
+2024-03-19,Low,Medium,Low,High,Low,Low,Low,Medium,High,No rain,0
+2024-03-20,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Medium,No rain,0
+2024-03-21,High,Medium,Medium,Low,Medium,High,High,Low,High,Rain,1
+2024-03-22,High,Medium,Medium,High,Medium,High,Low,Medium,High,No rain,1
+2024-03-23,High,Medium,Low,Medium,High,High,High,Medium,High,No rain,1
+2024-03-24,High,Medium,Medium,Medium,High,High,High,Medium,High,Rain,1
+2024-03-25,High,Medium,Medium,Low,High,Medium,Low,Medium,High,Rain,1
+2024-03-26,High,Medium,High,High,High,High,Low,Low,High,Rain,1
+2024-03-27,High,Medium,High,Medium,High,High,Low,Low,High,Rain,1
+2024-03-28,High,Medium,Low,High,Low,Low,Low,Medium,High,Rain,1
+2024-03-29,Medium,Medium,Low,High,Low,Low,Low,Medium,High,Rain,0
+2024-03-30,Low,Medium,Low,High,Low,Low,Low,Medium,Medium,No rain,0
+2024-03-31,High,Medium,Medium,Low,High,High,High,Medium,High,No rain,1
+2024-04-01,High,Medium,Medium,High,High,High,High,Medium,High,No rain,1
+2024-04-02,High,Medium,Medium,Medium,Medium,Medium,High,High,High,No rain,1
+2024-04-03,High,Medium,Low,Medium,Medium,High,High,High,High,Rain,1
+2024-04-04,High,Medium,Medium,High,Medium,High,High,Medium,High,Rain,1
+2024-04-05,High,Medium,Medium,Low,Medium,High,Medium,Medium,High,Rain,1
+2024-04-06,High,Medium,Low,High,Medium,High,Low,Medium,High,No rain,1
+2024-04-07,Low,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-04-08,Medium,Medium,Low,High,Medium,High,High,Medium,High,Rain,0
+2024-04-09,Medium,Medium,Low,High,Medium,Medium,Medium,Medium,High,Rain,0
+2024-04-10,High,Medium,High,Low,Medium,High,Low,Low,Medium,Rain,1
+2024-04-11,High,Medium,Medium,Medium,High,High,Low,Medium,High,Rain,1
+2024-04-12,High,Medium,Medium,High,High,High,Low,Medium,High,No rain,1
+2024-04-13,High,Medium,Medium,High,High,Medium,Low,High,High,No rain,1
+2024-04-14,High,Medium,High,High,High,Medium,Low,Medium,Medium,Rain,1
+2024-04-15,Medium,Medium,Low,High,Low,Low,Medium,Medium,High,Rain,0
+2024-04-16,Low,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-04-17,High,Medium,Low,Medium,Medium,High,High,High,High,No rain,1
+2024-04-18,High,Medium,Low,High,Medium,High,High,High,High,No rain,1
+2024-04-19,Medium,Medium,Low,High,Medium,Medium,High,Medium,High,Rain,0
+2024-04-20,Medium,Medium,Medium,High,Low,Medium,Low,Medium,Medium,Rain,0
+2024-04-21,High,Medium,Medium,Medium,High,High,High,High,High,Rain,1
+2024-04-22,High,Medium,High,Medium,High,Medium,Medium,High,High,Rain,1
+2024-04-23,Low,Medium,Medium,High,Low,Low,Low,Medium,Low,Rain,0
+2024-04-24,Medium,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-04-25,High,Medium,Low,Medium,High,High,Medium,High,High,No rain,1
+2024-04-26,High,Medium,Medium,Medium,High,High,Low,High,High,Rain,1
+2024-04-27,High,Medium,High,Medium,High,Medium,Medium,Medium,High,Rain,1
+2024-04-28,Low,Medium,Medium,High,Low,Low,Low,Medium,Low,Rain,0
+2024-04-29,Low,Medium,Medium,Medium,Low,Low,Low,Low,Low,Rain,0
+2024-04-30,Low,Medium,Low,High,Low,Medium,Low,Low,Low,No rain,0
+2024-05-01,Low,Medium,Low,Medium,Low,Medium,Low,Medium,Medium,Rain,0
+2024-05-02,Medium,Medium,Low,High,Low,Medium,Medium,High,Medium,No rain,0
+2024-05-03,Medium,Medium,Low,High,Low,Medium,Low,High,Medium,No rain,0
+2024-05-04,High,Medium,Medium,Medium,Medium,High,Medium,High,High,No rain,1
+2024-05-05,High,Medium,Medium,Low,High,Medium,Low,High,High,Rain,1
+2024-05-06,High,Medium,Medium,Medium,Low,Medium,Low,High,Medium,Rain,1
+2024-05-07,Medium,High,Low,Low,Low,High,Low,High,Medium,Rain,0
+2024-05-08,High,High,Low,Medium,Medium,High,Medium,High,High,No rain,1
+2024-05-09,High,High,Low,High,Medium,Medium,High,High,High,No rain,1
+2024-05-10,High,High,Low,High,Medium,Medium,Medium,High,High,Rain,1
+2024-05-11,High,Medium,Low,High,Low,Low,Medium,High,High,No rain,1
+2024-05-12,Low,Medium,Low,High,Low,Medium,Low,Medium,Medium,No rain,0
+2024-05-13,Medium,High,Low,High,Low,Medium,Low,High,Medium,No rain,0
+2024-05-14,Medium,High,Low,High,Low,Low,Low,High,High,Rain,0
+2024-05-15,Low,Medium,Low,High,Low,Low,Low,High,Low,No rain,0
+2024-05-16,Medium,High,Low,Medium,Low,Medium,Medium,High,Medium,No rain,0
+2024-05-17,Medium,High,Low,Medium,Medium,High,High,High,High,No rain,0
+2024-05-18,High,High,Medium,Medium,High,Medium,High,High,High,Rain,1
+2024-05-19,High,Medium,High,High,High,Low,Medium,High,High,Rain,1
+2024-05-20,Low,Medium,Low,Medium,Medium,Low,Low,High,Low,Rain,0
+2024-05-21,Medium,High,Medium,Medium,Medium,Medium,Medium,High,Medium,Rain,0
+2024-05-22,High,High,Medium,High,High,Medium,Low,High,High,Rain,1
+2024-05-23,High,High,Medium,High,High,Medium,Low,High,High,Rain,1
+2024-05-24,Low,Medium,Medium,Medium,Medium,Medium,Low,Medium,Low,Rain,0
+2024-05-25,Low,Medium,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-05-26,Low,Medium,Low,High,Low,Low,Medium,Medium,Low,Rain,0
+2024-05-27,Medium,High,Low,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2024-05-28,Medium,High,Low,Medium,Low,High,Low,High,Medium,No rain,0
+2024-05-29,Medium,High,Low,High,Medium,Medium,High,High,High,Rain,0
+2024-05-30,Medium,High,Low,Medium,Low,Medium,Low,High,Medium,Rain,0
+2024-05-31,Low,High,Low,High,Low,Low,Low,High,Low,Rain,0
+2024-06-01,Low,High,Low,Low,Low,Medium,Low,High,Low,No rain,0
+2024-06-02,Medium,High,Low,Medium,Low,Medium,Medium,High,Medium,Rain,0
+2024-06-03,Medium,High,Low,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2024-06-04,Medium,High,Medium,Medium,High,Medium,High,High,Medium,Rain,0
+2024-06-05,Medium,High,Medium,Medium,High,Medium,High,High,High,Rain,0
+2024-06-06,High,High,Medium,Medium,Medium,Medium,Medium,High,High,Rain,1
+2024-06-07,Medium,Medium,High,Low,Medium,Medium,Low,High,Medium,Rain,0
+2024-06-08,Medium,High,Low,Low,Medium,Low,Low,High,Medium,Rain,0
+2024-06-09,Medium,High,Low,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2024-06-10,Medium,High,Low,Medium,High,Low,Medium,High,Medium,Rain,0
+2024-06-11,Medium,High,Low,Low,Medium,Medium,Low,High,Medium,Rain,0
+2024-06-12,Medium,High,Low,Low,Medium,Medium,Low,High,Medium,Rain,0
+2024-06-13,Medium,High,Medium,Medium,High,Medium,Low,High,Medium,Rain,0
+2024-06-14,Medium,High,Low,Medium,Medium,Low,Low,High,Low,Rain,0
+2024-06-15,Low,High,Low,Medium,Low,Medium,Low,High,Low,Rain,0
+2024-06-16,Medium,High,Low,Medium,Medium,Medium,Low,High,Medium,No rain,0
+2024-06-17,Medium,High,Low,High,Medium,Medium,Low,High,High,No rain,0
+2024-06-18,Medium,High,Low,High,Medium,Medium,Medium,High,High,Rain,0
+2024-06-19,High,High,Medium,Medium,Medium,Medium,High,High,High,Rain,1
+2024-06-20,High,High,Medium,Medium,High,Low,Medium,High,High,Rain,1
+2024-06-21,Medium,High,High,Low,High,Medium,Medium,Medium,Medium,Rain,0
+2024-06-22,High,High,Low,High,Medium,Low,Low,High,High,Rain,1
+2024-06-23,High,High,Low,High,Low,Low,Low,Medium,High,Rain,1
+2024-06-24,Low,High,Low,Medium,Low,Low,Low,Medium,Low,No rain,0
+2024-06-25,Low,High,Low,Low,Low,Medium,Low,High,Low,Rain,0
+2024-06-26,Medium,High,Low,Medium,High,Medium,High,High,High,No rain,0
+2024-06-27,Medium,High,Low,High,Low,Medium,Low,High,High,Rain,0
+2024-06-28,Medium,High,Low,High,Medium,Medium,Medium,High,High,Rain,0
+2024-06-29,High,High,Medium,Medium,High,Low,High,High,High,Rain,1
+2024-06-30,Medium,High,Medium,Low,Medium,Low,Medium,High,Medium,Rain,0
+2024-07-01,Low,High,Medium,Medium,Medium,Low,Medium,High,Low,Rain,0
+2024-07-02,Medium,High,High,Medium,Medium,Low,Medium,Medium,Low,Rain,0
+2024-07-03,Medium,High,Medium,Medium,Low,Low,Low,High,Low,Rain,0
+2024-07-04,High,High,Medium,Low,Medium,Low,Low,High,Medium,Rain,1
+2024-07-05,High,High,High,Low,High,Low,Medium,High,High,Rain,1
+2024-07-06,Medium,High,Medium,Medium,Medium,Low,Medium,High,Low,Rain,0
+2024-07-07,Medium,High,Medium,Low,Medium,Low,Low,High,Medium,Rain,0
+2024-07-08,Medium,High,Medium,Low,Medium,Low,Low,High,Low,Rain,0
+2024-07-09,High,High,Low,Low,High,Low,Low,High,Medium,Rain,1
+2024-07-10,High,High,Medium,Low,High,Medium,Low,High,High,Rain,1
+2024-07-11,High,High,Medium,Medium,High,Medium,Low,High,High,Rain,1
+2024-07-12,Medium,High,High,Low,High,Low,Low,High,Medium,Rain,0
+2024-07-13,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2024-07-14,High,High,High,Low,High,Low,Low,High,Medium,Rain,1
+2024-07-15,High,High,High,Medium,High,Low,Low,High,Medium,Rain,1
+2024-07-16,Medium,High,High,Medium,High,Low,Low,High,Low,Rain,0
+2024-07-17,Low,High,Medium,Medium,Low,Low,Low,High,Low,No rain,0
+2024-07-18,Low,High,Low,High,Low,Medium,Low,High,Low,No rain,0
+2024-07-19,Medium,High,Medium,Medium,Medium,Medium,Low,High,Medium,Rain,0
+2024-07-20,Low,High,Medium,Medium,Low,Low,Low,High,Low,Rain,0
+2024-07-21,Medium,High,Medium,Medium,Medium,Low,Low,High,Medium,Rain,0
+2024-07-22,Low,High,High,Low,Medium,Low,Low,High,Low,Rain,0
+2024-07-23,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2024-07-24,Medium,High,High,Medium,Medium,Low,Medium,High,Medium,Rain,0
+2024-07-25,Low,High,High,High,Medium,Low,Medium,Medium,Low,Rain,0
+2024-07-26,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-07-27,Medium,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-07-28,Low,High,High,Low,Medium,Low,Medium,High,Low,No rain,0
+2024-07-29,Medium,High,High,Low,Medium,Low,Medium,High,Medium,Rain,0
+2024-07-30,Low,High,High,High,Medium,Low,Medium,Medium,Low,Rain,0
+2024-07-31,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-01,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-08-02,Medium,High,High,Low,Medium,Low,Medium,Medium,Medium,Rain,0
+2024-08-03,Medium,High,High,Medium,High,Low,High,High,Low,Rain,0
+2024-08-04,Medium,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-08-05,Low,High,High,Low,Low,Low,Medium,High,Low,Rain,0
+2024-08-06,Medium,High,High,Low,Medium,Low,Medium,High,Medium,Rain,0
+2024-08-07,Medium,High,High,Low,High,Low,Medium,High,Medium,Rain,0
+2024-08-08,Medium,High,High,Low,Medium,Medium,Medium,High,Low,Rain,0
+2024-08-09,Medium,High,High,High,High,Low,Medium,High,Medium,Rain,0
+2024-08-10,Low,High,High,Medium,Medium,Low,High,High,Low,Rain,0
+2024-08-11,Low,High,High,Medium,Low,Low,High,Medium,Low,Rain,0
+2024-08-12,Low,High,High,High,Low,Low,Medium,Medium,Low,Rain,0
+2024-08-13,Low,High,High,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2024-08-14,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-15,Medium,High,High,Low,High,Low,High,High,Medium,Rain,0
+2024-08-16,Medium,High,High,Low,High,Medium,Medium,Medium,Medium,Rain,0
+2024-08-17,Medium,High,High,Low,High,Low,Medium,High,Low,Rain,0
+2024-08-18,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-08-19,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-08-20,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-21,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-22,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-23,Medium,High,High,Low,High,Low,High,High,Medium,Rain,0
+2024-08-24,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2024-08-25,Medium,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-08-26,Low,High,High,High,Medium,Low,Medium,High,Low,Rain,0
+2024-08-27,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,No rain,0
+2024-08-28,Low,High,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2024-08-29,Medium,High,High,Low,Medium,Medium,Medium,High,Medium,No rain,0
+2024-08-30,Medium,High,High,Low,High,Medium,Medium,High,Medium,No rain,0
+2024-08-31,High,High,High,Medium,High,Medium,Medium,High,Medium,Rain,1
+2024-09-01,Low,High,High,Medium,Medium,Low,High,Medium,Low,Rain,0
+2024-09-02,Low,Medium,High,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2024-09-03,Low,High,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2024-09-04,High,High,High,Low,High,Medium,High,Medium,Medium,Rain,1
+2024-09-05,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2024-09-06,Low,High,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2024-09-07,Low,Medium,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2024-09-08,Medium,High,High,Low,Medium,Medium,Medium,Low,Low,Rain,0
+2024-09-09,High,High,High,Medium,High,Medium,Medium,Low,Medium,Rain,1
+2024-09-10,Low,Medium,High,Medium,Medium,Low,Medium,Low,Low,Rain,0
+2024-09-11,Low,High,Medium,Low,Medium,Medium,Medium,Low,Low,Rain,0
+2024-09-12,Low,High,High,Low,Medium,Medium,High,Medium,Low,No rain,0
+2024-09-13,Low,Medium,High,Medium,Medium,Medium,High,Medium,Low,Rain,0
+2024-09-14,Low,Medium,High,Low,Low,Low,High,Medium,Low,Rain,0
+2024-09-15,Low,Medium,High,Low,Medium,Medium,High,Medium,Low,Rain,0
+2024-09-16,Medium,Medium,High,Low,Medium,Medium,Medium,Medium,Medium,Rain,0
+2024-09-17,Low,High,High,Low,Medium,Low,High,Medium,Low,Rain,0
+2024-09-18,Medium,High,High,Low,High,Low,High,Medium,Medium,Rain,0
+2024-09-19,Medium,High,High,Low,High,Medium,High,High,Medium,Rain,0
+2024-09-20,Medium,Medium,High,High,Medium,Low,Medium,Low,Low,Rain,0
+2024-09-21,Low,Medium,High,Medium,Low,Low,High,Medium,Low,No rain,0
+2024-09-22,Low,Medium,Medium,Medium,Low,Low,High,Medium,Low,No rain,0
+2024-09-23,Low,Medium,High,Low,Low,Medium,Medium,Medium,Medium,No rain,0
+2024-09-24,Medium,Medium,High,Low,Medium,High,High,High,Medium,Rain,0
+2024-09-25,Medium,Medium,High,Medium,Medium,Medium,Medium,Medium,Medium,Rain,0
+2024-09-26,Medium,Medium,High,Low,High,Medium,High,Low,Medium,Rain,0
+2024-09-27,Medium,Medium,High,Low,High,Medium,Medium,Low,Medium,No rain,0
+2024-09-28,Medium,Medium,High,Low,High,Medium,Low,Low,Medium,No rain,0
+2024-09-29,High,Medium,High,High,High,Medium,Medium,Medium,High,Rain,1
+2024-09-30,Low,Medium,High,High,Low,Low,Medium,Low,Low,Rain,0
+2024-10-01,Low,Medium,Medium,High,Low,Low,Medium,Medium,Low,Rain,0
+2024-10-02,Low,Medium,Medium,Medium,Low,Low,Medium,Low,Low,No rain,0
+2024-10-03,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-10-04,High,Medium,High,Low,Medium,High,High,Medium,High,No rain,1
+2024-10-05,High,Medium,High,Low,High,High,Medium,Medium,High,No rain,1
+2024-10-06,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2024-10-07,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-10-08,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-10-09,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2024-10-10,Low,Medium,Medium,Medium,Low,Medium,Low,Medium,Low,No rain,0
+2024-10-11,Medium,Medium,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2024-10-12,High,Medium,High,Low,High,High,High,Medium,High,No rain,1
+2024-10-13,High,Medium,High,Low,High,High,Medium,Medium,High,Rain,1
+2024-10-14,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2024-10-15,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Low,Medium,No rain,0
+2024-10-16,Medium,Medium,High,Low,High,High,High,Low,Medium,No rain,0
+2024-10-17,Medium,Medium,High,Low,High,High,Medium,Low,High,Rain,0
+2024-10-18,Medium,Medium,High,Medium,High,Medium,Medium,Low,Medium,Rain,0
+2024-10-19,Low,Low,Medium,Medium,Low,Low,Medium,Low,Low,No rain,0
+2024-10-20,Low,Low,Medium,Medium,Medium,High,High,Low,Low,Rain,0
+2024-10-21,High,Medium,High,Low,Medium,High,Low,Low,Medium,No rain,1
+2024-10-22,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,Rain,0
+2024-10-23,Medium,Medium,High,Medium,Medium,High,Low,Low,Medium,No rain,0
+2024-10-24,High,Medium,Medium,Medium,High,High,Medium,Low,High,No rain,1
+2024-10-25,High,Medium,High,Low,High,High,Medium,Low,High,No rain,1
+2024-10-26,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2024-10-27,Low,Medium,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-10-28,Medium,Medium,Medium,Low,Medium,High,Medium,Low,Medium,No rain,0
+2024-10-29,High,Medium,High,Medium,High,High,Medium,Low,High,No rain,1
+2024-10-30,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2024-10-31,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2024-11-01,High,Medium,High,Low,High,High,Medium,Low,High,No rain,1
+2024-11-02,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2024-11-03,High,Medium,Medium,High,High,Medium,Medium,Low,High,Rain,1
+2024-11-04,Low,Low,Low,High,Low,Low,Low,Low,Low,Rain,0
+2024-11-05,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2024-11-06,Medium,Medium,Medium,Low,High,High,High,Low,Medium,No rain,0
+2024-11-07,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2024-11-08,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2024-11-09,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2024-11-10,High,Medium,High,Medium,High,High,Medium,Low,High,Rain,1
+2024-11-11,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2024-11-12,High,Medium,High,Medium,High,High,Low,Low,High,No rain,1
+2024-11-13,High,Medium,High,Low,High,High,Medium,Low,High,Rain,1
+2024-11-14,High,Medium,High,Low,High,High,Medium,Low,Medium,Rain,1
+2024-11-15,High,Medium,High,Low,High,High,Medium,Low,Medium,Rain,1
+2024-11-16,Medium,Medium,Medium,High,Medium,Medium,Medium,Low,Medium,No rain,0
+2024-11-17,Low,Low,Medium,Medium,Low,Medium,Medium,Low,Low,Rain,0
+2024-11-18,Medium,Low,High,Medium,Medium,High,High,Low,Medium,No rain,0
+2024-11-19,High,Low,High,Low,High,High,Medium,Low,Medium,No rain,1
+2024-11-20,High,Low,High,Medium,High,High,Medium,Low,High,No rain,1
+2024-11-21,Low,Low,Medium,High,Low,High,Medium,Low,Low,No rain,0
+2024-11-22,Low,Low,High,Low,Medium,High,Medium,Low,Low,No rain,0
+2024-11-23,Medium,Low,High,Low,High,High,High,Low,Medium,No rain,0
+2024-11-24,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2024-11-25,Medium,Low,Medium,High,Medium,Medium,Medium,Low,Medium,Rain,0
+2024-11-26,Low,Low,Low,High,Low,Low,Medium,Medium,Low,Rain,0
+2024-11-27,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2024-11-28,Low,Low,Medium,High,Low,Low,Low,Low,Low,No rain,0
+2024-11-29,Low,Low,High,High,Low,High,Medium,Low,Low,No rain,0
+2024-11-30,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2024-12-01,Medium,Low,Medium,High,Medium,High,High,Low,Medium,No rain,0
+2024-12-02,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2024-12-03,Low,Low,Medium,Medium,Low,High,Low,Low,Medium,No rain,0
+2024-12-04,Medium,Low,Medium,Medium,Low,High,Medium,Low,Medium,No rain,0
+2024-12-05,Low,Low,Medium,High,Low,Medium,Low,Low,Low,No rain,0
+2024-12-06,Low,Low,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2024-12-07,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2024-12-08,Low,Low,Medium,High,Medium,High,High,Low,Low,No rain,0
+2024-12-09,Medium,Low,Medium,Medium,High,High,High,Low,Medium,No rain,0
+2024-12-10,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2024-12-11,Medium,Low,Medium,Low,Medium,High,High,Low,Medium,No rain,0
+2024-12-12,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2024-12-13,Low,Low,Medium,High,Low,Low,Low,Medium,Low,Rain,0
+2024-12-14,Low,Low,Medium,High,Low,Medium,Medium,Medium,Low,Rain,0
+2024-12-15,Low,Low,Medium,High,Low,Medium,Medium,Low,Medium,No rain,0
+2024-12-16,Low,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2024-12-17,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2024-12-18,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2024-12-19,Medium,Low,Medium,Low,Medium,High,Medium,Low,Medium,No rain,0
+2024-12-20,Medium,Low,Medium,High,Low,Medium,Medium,Low,Medium,No rain,0
+2024-12-21,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-12-22,Low,Low,Medium,High,Low,High,Medium,Low,Low,No rain,0
+2024-12-23,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2024-12-24,Medium,Low,Medium,Low,Medium,High,Low,Low,Medium,No rain,0
+2024-12-25,Medium,Low,Medium,High,Low,Medium,Low,Low,Medium,No rain,0
+2024-12-26,Low,Low,Medium,High,Low,Low,Low,Low,Low,No rain,0
+2024-12-27,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2024-12-28,Low,Low,Medium,High,Low,Medium,Medium,Low,Medium,No rain,0
+2024-12-29,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2024-12-30,Medium,Low,Medium,High,Low,Medium,Medium,Medium,High,No rain,0
+2024-12-31,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2025-01-01,Medium,Low,Medium,Low,High,High,High,Low,Medium,No rain,0
+2025-01-02,Low,Low,Medium,High,Low,Medium,Medium,Medium,Low,No rain,0
+2025-01-03,Low,Low,Medium,Medium,Low,High,Low,Low,Medium,No rain,0
+2025-01-04,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2025-01-05,Medium,Low,Medium,High,Medium,High,Medium,Low,Medium,No rain,0
+2025-01-06,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-01-07,Low,Low,Medium,High,Low,Low,Low,Medium,Low,No rain,0
+2025-01-08,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2025-01-09,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2025-01-10,Low,Low,Low,High,Low,Medium,High,Low,Low,No rain,0
+2025-01-11,Medium,Low,Medium,Low,Medium,High,High,Low,Medium,Rain,0
+2025-01-12,Low,Low,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2025-01-13,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,Rain,0
+2025-01-14,Low,Low,Low,High,Low,Low,Medium,Low,Low,Rain,0
+2025-01-15,Low,Low,Low,High,Low,Medium,Medium,Low,Low,No rain,0
+2025-01-16,Medium,Low,Medium,High,Medium,Medium,High,Low,Medium,No rain,0
+2025-01-17,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2025-01-18,High,Low,Medium,High,High,High,High,Low,High,No rain,1
+2025-01-19,Medium,Low,Low,High,Medium,High,High,Medium,Medium,No rain,0
+2025-01-20,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2025-01-21,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2025-01-22,High,Low,Medium,Low,High,High,High,Low,Medium,No rain,1
+2025-01-23,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2025-01-24,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-01-25,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2025-01-26,High,Low,Medium,High,Medium,Low,High,Medium,High,Rain,1
+2025-01-27,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-01-28,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-01-29,High,Low,Medium,Low,Medium,Low,High,Medium,High,No rain,1
+2025-01-30,High,Low,High,Low,High,Low,High,Medium,Medium,No rain,1
+2025-01-31,High,Low,High,Low,High,Low,High,Low,High,No rain,1
+2025-02-01,High,Low,High,Low,High,Medium,High,Low,High,No rain,1
+2025-02-02,High,Low,Medium,High,High,Low,Medium,Medium,Medium,No rain,1
+2025-02-03,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-04,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-05,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-06,Low,Low,Low,High,Low,Low,High,Medium,Medium,No rain,0
+2025-02-07,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-08,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-09,Low,Low,Low,Medium,Low,Medium,High,Medium,Low,No rain,0
+2025-02-10,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2025-02-11,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-02-12,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-13,High,Low,Low,High,Medium,High,High,Low,High,No rain,1
+2025-02-14,High,Low,Low,High,High,High,High,Low,High,No rain,1
+2025-02-15,High,Low,Medium,High,Medium,High,High,Medium,High,No rain,1
+2025-02-16,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-17,Low,Low,Low,Medium,Low,Low,Medium,Medium,Low,No rain,0
+2025-02-18,Medium,Low,Low,Medium,Low,Medium,High,Low,Low,No rain,0
+2025-02-19,Low,Low,Low,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2025-02-20,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-21,Low,Low,Low,Medium,Low,Low,High,Medium,Low,No rain,0
+2025-02-22,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-02-23,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-02-24,Medium,Low,Low,High,Medium,High,High,Low,Medium,No rain,0
+2025-02-25,Medium,Low,Low,High,Medium,Medium,High,Medium,Medium,No rain,0
+2025-02-26,Medium,Low,Low,Medium,High,High,High,Low,Medium,No rain,0
+2025-02-27,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2025-02-28,High,Medium,Low,Medium,High,High,High,Medium,High,No rain,1
+2025-03-01,High,Medium,High,Low,High,High,High,Medium,High,Rain,1
+2025-03-02,High,Low,Medium,Medium,High,Medium,High,Medium,High,Rain,1
+2025-03-03,Medium,Low,Low,Low,Medium,High,High,Medium,Medium,No rain,0
+2025-03-04,Medium,Low,Low,Medium,Medium,Medium,High,Medium,Medium,No rain,0
+2025-03-05,High,Low,Medium,Low,High,High,High,Medium,High,No rain,1
+2025-03-06,Low,Low,Low,Medium,Low,Medium,High,Medium,Low,No rain,0
+2025-03-07,High,Low,High,Low,Medium,High,High,Medium,High,No rain,1
+2025-03-08,High,Medium,Medium,Low,High,High,High,Medium,High,No rain,1
+2025-03-09,High,Medium,Medium,High,High,High,High,High,High,No rain,1
+2025-03-10,High,Medium,High,Medium,High,Medium,High,High,High,No rain,1
+2025-03-11,High,Medium,High,Low,High,High,High,Medium,High,Rain,1
+2025-03-12,Medium,Medium,Low,High,Low,Medium,High,Medium,High,No rain,0
+2025-03-13,High,Medium,Medium,Medium,High,High,High,Medium,High,Rain,1
+2025-03-14,Medium,Low,Medium,High,High,Medium,High,Medium,High,Rain,0
+2025-03-15,Medium,Low,High,Medium,High,Medium,High,Medium,Medium,Rain,0
+2025-03-16,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2025-03-17,Low,Low,Low,High,Low,Medium,High,Medium,Low,Rain,0
+2025-03-18,Low,Low,Low,High,Low,Medium,High,Medium,Low,No rain,0
+2025-03-19,Medium,Medium,Low,High,Medium,High,High,Medium,Medium,No rain,0
+2025-03-20,Low,Medium,Low,High,Low,Medium,High,Medium,Low,No rain,0
+2025-03-21,Low,Medium,Low,High,Low,Medium,High,High,Low,No rain,0
+2025-03-22,Medium,Medium,Low,High,Low,Medium,High,Medium,Medium,No rain,0
+2025-03-23,High,Medium,Low,High,Low,Medium,High,High,High,No rain,1
+2025-03-24,Medium,Medium,Low,High,Low,Low,High,High,High,Rain,0
+2025-03-25,Low,Medium,Low,High,Low,Low,High,Medium,Medium,Rain,0
+2025-03-26,Medium,Medium,Low,High,Medium,Low,High,High,High,Rain,0
+2025-03-27,Low,Medium,Low,High,Low,Low,High,High,High,No rain,0
+2025-03-28,Low,Low,Low,High,Low,Low,High,High,Low,Rain,0
+2025-03-29,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-03-30,Medium,Medium,Low,Medium,Medium,Medium,High,Medium,Medium,No rain,0
+2025-03-31,High,Medium,Low,Medium,Medium,High,High,Medium,High,No rain,1
+2025-04-01,Medium,Medium,Low,High,Low,Medium,High,Medium,Medium,No rain,0
+2025-04-02,Low,Medium,Low,Medium,Low,Low,High,High,Low,No rain,0
+2025-04-03,Medium,Medium,Low,High,Medium,High,High,Medium,High,No rain,0
+2025-04-04,High,Medium,Low,High,Medium,High,High,Medium,High,No rain,1
+2025-04-05,Low,Medium,Low,High,Low,Low,High,High,Low,No rain,0
+2025-04-06,Medium,Medium,Low,High,Medium,High,High,Medium,High,No rain,0
+2025-04-07,High,Medium,Low,High,High,High,High,High,High,No rain,1
+2025-04-08,Medium,Medium,Low,High,Low,Medium,High,High,Medium,Rain,0
+2025-04-09,Medium,Medium,Medium,Low,Medium,Medium,High,High,Medium,Rain,0
+2025-04-10,High,Medium,Low,Medium,High,High,High,High,High,No rain,1
+2025-04-11,High,Medium,Low,High,High,High,High,High,High,Rain,1
+2025-04-12,Medium,Medium,Low,High,Low,Low,High,High,High,Rain,0
+2025-04-13,Medium,Medium,Low,High,Low,Low,High,High,High,No rain,0
+2025-04-14,Medium,Medium,Low,High,Low,Low,High,High,Medium,No rain,0
+2025-04-15,Medium,Medium,Low,High,Medium,High,High,Medium,Medium,No rain,0
+2025-04-16,High,Medium,Low,High,High,High,High,High,High,No rain,1
+2025-04-17,High,Medium,Low,High,High,Medium,High,High,High,No rain,1
+2025-04-18,Low,Medium,Medium,Low,Low,Medium,High,Medium,Low,Rain,0
+2025-04-19,Medium,Medium,Medium,Low,Medium,Low,High,Medium,Medium,Rain,0
+2025-04-20,High,Medium,Medium,High,Medium,High,High,High,High,Rain,1
+2025-04-21,High,Medium,Medium,Medium,High,High,High,Low,High,Rain,1
+2025-04-22,Low,Medium,Low,High,Low,Medium,High,High,Low,No rain,0
+2025-04-23,Medium,Medium,Low,High,Low,Medium,High,Medium,Medium,No rain,0
+2025-04-24,Low,Medium,Low,High,Low,Low,High,High,Low,No rain,0
+2025-04-25,Medium,Medium,Low,High,Low,Medium,High,Medium,Medium,Rain,0
+2025-04-26,High,Medium,Medium,Medium,High,High,High,High,High,No rain,1
+2025-04-27,Low,Medium,Low,High,Low,Low,High,High,Low,No rain,0
+2025-04-28,Medium,Medium,Low,High,Medium,High,High,Medium,High,No rain,0
+2025-04-29,Medium,Medium,Low,High,Medium,High,High,Medium,High,No rain,0
+2025-04-30,Low,Medium,Low,High,Low,Medium,High,Medium,Medium,Rain,0
+2025-05-01,Low,Medium,Low,High,Low,Low,High,High,Low,Rain,0
+2025-05-02,Low,Medium,Medium,High,Medium,Medium,High,Medium,Medium,Rain,0
+2025-05-03,Low,Medium,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-05-04,Medium,Medium,Low,Low,Low,Medium,High,High,Medium,Rain,0
+2025-05-05,Medium,Medium,Medium,Medium,Medium,Low,High,Medium,Medium,Rain,0
+2025-05-06,Low,Medium,Low,High,Low,Low,High,High,Low,Rain,0
+2025-05-07,High,Medium,Medium,High,Medium,Medium,High,High,High,Rain,1
+2025-05-08,High,Medium,High,High,High,Medium,High,High,High,Rain,1
+2025-05-09,Low,Medium,High,High,Medium,Low,High,Medium,Low,Rain,0
+2025-05-10,Low,Medium,Low,High,Low,Low,Low,Low,Low,No rain,0
+2025-05-11,High,Medium,Low,Medium,Medium,High,High,Medium,Medium,Rain,1
+2025-05-12,High,High,Medium,Low,High,High,High,High,High,No rain,1
+2025-05-13,High,High,Medium,Medium,High,Medium,High,High,High,Rain,1
+2025-05-14,Low,Medium,Medium,High,Low,Low,Medium,High,Low,Rain,0
+2025-05-15,Medium,High,Medium,High,Medium,Low,High,High,Medium,Rain,0
+2025-05-16,High,High,Medium,High,High,Medium,High,High,High,Rain,1
+2025-05-17,Low,Medium,Low,High,Low,Low,High,High,Medium,Rain,0
+2025-05-18,Medium,Medium,Medium,Medium,Low,Medium,High,Medium,Medium,Rain,0
+2025-05-19,Medium,High,Medium,Low,Medium,Medium,High,High,Medium,Rain,0
+2025-05-20,High,High,Medium,Medium,High,High,High,High,High,Rain,1
+2025-05-21,High,High,Medium,Medium,High,Medium,High,High,High,Rain,1
+2025-05-22,High,Medium,High,High,High,Medium,High,Medium,High,Rain,1
+2025-05-23,High,Medium,Medium,Medium,Medium,Medium,High,Medium,Medium,Rain,1
+2025-05-24,Medium,Medium,Low,Medium,Low,Medium,Medium,Medium,Medium,No rain,0
+2025-05-25,Medium,High,Medium,High,Medium,Medium,High,High,Medium,Rain,0
+2025-05-26,Medium,High,Medium,Low,High,High,High,High,Medium,Rain,0
+2025-05-27,Medium,High,Low,Medium,Medium,Medium,High,High,Medium,No rain,0
+2025-05-28,Medium,High,Low,Medium,Medium,Medium,High,High,Medium,No rain,0
+2025-05-29,High,High,Low,High,High,Medium,High,High,High,No rain,1
+2025-05-30,High,High,Medium,High,High,Medium,High,High,High,Rain,1
+2025-05-31,High,High,Medium,Medium,High,High,High,High,High,Rain,1
+2025-06-01,High,Medium,High,Medium,High,Medium,High,High,Medium,Rain,1
+2025-06-02,Low,High,Low,High,Low,Low,Medium,High,Low,Rain,0
+2025-06-03,Low,High,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-06-04,Low,High,Low,High,Low,Medium,High,High,Low,No rain,0
+2025-06-05,Medium,High,Low,Low,Medium,Medium,High,High,Medium,No rain,0
+2025-06-06,Low,High,Low,Medium,Low,Medium,High,High,Medium,No rain,0
+2025-06-07,Low,High,Low,High,Low,Low,High,High,Low,No rain,0
+2025-06-08,Medium,High,Low,Low,Medium,Medium,High,High,Medium,No rain,0
+2025-06-09,Medium,High,Low,High,Medium,Medium,High,High,Medium,Rain,0
+2025-06-10,Low,High,Low,High,Low,Medium,Medium,High,Low,Rain,0
+2025-06-11,Medium,High,Low,High,Medium,Medium,High,High,Medium,No rain,0
+2025-06-12,Medium,High,Low,High,Medium,Medium,High,High,High,Rain,0
+2025-06-13,Medium,High,Medium,Medium,High,Medium,High,High,High,Rain,0
+2025-06-14,High,High,High,Medium,High,Low,High,High,Medium,Rain,1
+2025-06-15,Low,High,Medium,High,Low,Low,Medium,Medium,Low,Rain,0
+2025-06-16,Low,High,Medium,High,Low,Low,Medium,Medium,Low,Rain,0
+2025-06-17,Medium,High,Low,Medium,Medium,Medium,High,High,Medium,Rain,0
+2025-06-18,High,High,Medium,Medium,High,Medium,High,High,High,Rain,1
+2025-06-19,Medium,High,High,Low,Medium,Low,Medium,High,Medium,Rain,0
+2025-06-20,Medium,High,Low,Medium,Low,Low,Medium,High,Low,Rain,0
+2025-06-21,Low,High,Low,High,Low,Medium,High,High,Low,No rain,0
+2025-06-22,Low,High,Low,Medium,Low,Medium,Medium,High,Medium,No rain,0
+2025-06-23,Medium,High,Low,Low,High,Medium,High,High,Medium,No rain,0
+2025-06-24,High,High,Low,Low,High,Medium,High,High,High,No rain,1
+2025-06-25,High,High,Medium,Low,High,Medium,High,High,High,No rain,1
+2025-06-26,High,High,Medium,Low,High,Medium,High,High,High,No rain,1
+2025-06-27,High,High,High,Low,High,Medium,Medium,High,High,Rain,1
+2025-06-28,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2025-06-29,High,High,High,Low,High,Low,Medium,High,Medium,Rain,1
+2025-06-30,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2025-07-01,Medium,High,High,Medium,Medium,Low,Low,High,Low,Rain,0
+2025-07-02,Medium,High,High,Medium,Medium,Low,Medium,High,Low,Rain,0
+2025-07-03,Low,High,High,Medium,Medium,Low,Medium,Medium,Low,Rain,0
+2025-07-04,Medium,High,Medium,Medium,Medium,Low,Medium,High,Low,Rain,0
+2025-07-05,Low,High,Medium,High,Medium,Low,Medium,High,Low,Rain,0
+2025-07-06,Low,High,Low,Medium,Low,Low,Medium,High,Low,Rain,0
+2025-07-07,Low,High,Medium,Medium,Medium,Medium,High,High,Low,Rain,0
+2025-07-08,Medium,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-07-09,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2025-07-10,Medium,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-07-11,High,High,High,Medium,High,Low,Medium,High,Medium,Rain,1
+2025-07-12,Medium,High,High,Low,High,Low,High,High,Medium,Rain,0
+2025-07-13,Low,High,Medium,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2025-07-14,Medium,High,Medium,Low,Medium,Medium,High,High,Medium,Rain,0
+2025-07-15,Medium,High,High,Medium,High,Low,Medium,High,Medium,Rain,0
+2025-07-16,Medium,High,High,Low,High,Low,Medium,High,Low,Rain,0
+2025-07-17,Low,High,Medium,Medium,Low,Low,Medium,High,Low,No rain,0
+2025-07-18,Medium,High,Medium,Low,High,Medium,High,High,Medium,Rain,0
+2025-07-19,High,High,Medium,Medium,High,Medium,High,High,Medium,Rain,1
+2025-07-20,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-07-21,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-07-22,Medium,High,Medium,Low,Medium,Low,Medium,High,Medium,No rain,0
+2025-07-23,Medium,High,High,Medium,Medium,Low,Medium,High,Medium,Rain,0
+2025-07-24,Low,High,High,High,Medium,Low,Low,Medium,Low,Rain,0
+2025-07-25,Low,High,High,Medium,Medium,Low,Low,Medium,Low,Rain,0
+2025-07-26,Low,High,High,Medium,Low,Low,Low,Low,Low,Rain,0
+2025-07-27,Medium,High,High,Low,Medium,Low,Medium,Medium,Medium,Rain,0
+2025-07-28,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-07-29,Low,High,High,Low,Low,Low,Low,High,Low,Rain,0
+2025-07-30,Low,High,High,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2025-07-31,Low,High,High,Low,Medium,Medium,High,Medium,Low,No rain,0
+2025-08-01,Medium,High,High,Low,High,Low,High,High,Medium,No rain,0
+2025-08-02,High,High,High,Low,High,Low,High,High,Medium,Rain,1
+2025-08-03,Medium,High,High,Medium,Medium,Low,Low,High,Low,Rain,0
+2025-08-04,Medium,High,High,Medium,High,Low,Medium,High,Low,Rain,0
+2025-08-05,Low,High,High,Low,High,Low,Low,High,Low,Rain,0
+2025-08-06,Medium,High,High,Low,High,Low,Low,High,Low,Rain,0
+2025-08-07,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-08-08,Medium,High,High,Medium,High,Low,Medium,Medium,Low,Rain,0
+2025-08-09,Low,High,High,Medium,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-10,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-08-11,Medium,High,High,Medium,Medium,Low,Medium,High,Low,Rain,0
+2025-08-12,Medium,High,High,Low,Medium,Low,Low,Medium,Low,Rain,0
+2025-08-13,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-08-14,Low,High,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2025-08-15,Medium,High,High,Low,High,Low,Medium,High,Medium,Rain,0
+2025-08-16,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-08-17,Medium,High,High,Medium,High,Low,Medium,High,Low,Rain,0
+2025-08-18,Medium,High,High,Low,High,Low,High,High,Low,Rain,0
+2025-08-19,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-20,Low,High,High,Medium,High,Low,Medium,Medium,Low,Rain,0
+2025-08-21,Medium,High,High,Medium,High,Low,Medium,Medium,Low,Rain,0
+2025-08-22,Low,High,Medium,Medium,Medium,Low,High,Medium,Low,Rain,0
+2025-08-23,Low,High,High,Medium,Medium,Low,High,Medium,Low,Rain,0
+2025-08-24,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-25,Low,High,High,Low,Medium,Low,High,Medium,Low,Rain,0
+2025-08-26,Low,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-27,Low,High,High,High,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-28,Low,High,High,Medium,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-29,Medium,High,High,Low,High,Low,Medium,Low,Low,Rain,0
+2025-08-30,Medium,High,High,Low,Medium,Low,Medium,Medium,Low,Rain,0
+2025-08-31,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-09-01,Low,High,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2025-09-02,Medium,High,High,Low,Medium,Low,Medium,High,Medium,No rain,0
+2025-09-03,Medium,High,High,Low,High,Low,Medium,High,Medium,Rain,0
+2025-09-04,High,High,High,Low,High,Low,High,High,Medium,Rain,1
+2025-09-05,Medium,High,High,Low,High,Medium,Medium,Medium,Medium,Rain,0
+2025-09-06,Low,High,High,Medium,Medium,Low,High,Medium,Low,No rain,0
+2025-09-07,Low,Medium,High,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2025-09-08,Low,Medium,High,Medium,Low,Medium,High,Medium,Low,No rain,0
+2025-09-09,Medium,High,High,Low,Medium,Medium,Medium,High,Medium,Rain,0
+2025-09-10,Medium,High,High,Low,Medium,Medium,Medium,Medium,Medium,Rain,0
+2025-09-11,Medium,High,High,Medium,High,Medium,Medium,High,Medium,Rain,0
+2025-09-12,High,High,High,Low,High,Medium,High,Medium,Medium,Rain,1
+2025-09-13,Medium,High,High,Low,High,Medium,Medium,High,Medium,Rain,0
+2025-09-14,Low,Medium,High,Medium,Medium,Medium,High,Medium,Low,Rain,0
+2025-09-15,Low,Medium,High,Low,Medium,Medium,Medium,Low,Low,Rain,0
+2025-09-16,Low,Medium,High,High,Low,Medium,Medium,Low,Low,Rain,0
+2025-09-17,Low,Medium,Medium,Low,Low,Medium,Medium,Low,Low,No rain,0
+2025-09-18,Low,Medium,Medium,Low,Low,Medium,High,Low,Low,No rain,0
+2025-09-19,Low,Medium,High,Low,Low,Medium,Medium,Medium,Low,Rain,0
+2025-09-20,Low,Medium,High,Low,Medium,Medium,High,Medium,Medium,No rain,0
+2025-09-21,Medium,Medium,High,Medium,Medium,Medium,High,Medium,Medium,Rain,0
+2025-09-22,Medium,Medium,High,Low,Medium,Medium,Medium,Medium,Low,Rain,0
+2025-09-23,Medium,Medium,High,Low,Medium,Medium,Medium,Low,Medium,Rain,0
+2025-09-24,Medium,Medium,High,Medium,Medium,Medium,High,Low,Medium,Rain,0
+2025-09-25,Low,Medium,Medium,Low,Medium,High,Medium,Medium,Medium,Rain,0
+2025-09-26,Medium,Medium,Medium,Low,Medium,High,High,Medium,Medium,No rain,0
+2025-09-27,Medium,Medium,High,Low,Medium,Medium,Medium,Medium,Medium,Rain,0
+2025-09-28,Medium,Medium,High,Medium,Medium,Medium,High,Medium,Medium,Rain,0
+2025-09-29,Low,Medium,High,Medium,Medium,High,High,Medium,Low,Rain,0
+2025-09-30,Low,High,Medium,Low,Medium,Medium,High,Medium,Medium,Rain,0
+2025-10-01,Medium,High,Medium,Medium,Medium,High,High,Low,Medium,Rain,0
+2025-10-02,Medium,Medium,Medium,Low,Medium,Medium,High,Medium,Medium,No rain,0
+2025-10-03,Medium,Medium,High,Low,Medium,Medium,Medium,Medium,Medium,Rain,0
+2025-10-04,Medium,Medium,High,Low,High,Medium,High,Medium,Medium,No rain,0
+2025-10-05,Medium,Medium,High,Low,High,Medium,High,Low,Medium,Rain,0
+2025-10-06,Low,Medium,High,Low,Medium,Low,High,Low,Low,Rain,0
+2025-10-07,Medium,Medium,High,Low,Medium,Medium,High,Low,Medium,Rain,0
+2025-10-08,Low,Medium,High,Medium,Medium,Medium,Medium,Low,Low,Rain,0
+2025-10-09,Low,Medium,High,Medium,Low,Low,Medium,Low,Low,Rain,0
+2025-10-10,Low,Medium,High,Low,Medium,Low,Medium,Low,Low,Rain,0
+2025-10-11,Low,Medium,High,Low,Medium,Medium,Medium,Low,Low,Rain,0
+2025-10-12,Low,Medium,High,Low,High,Medium,High,Low,Low,Rain,0
+2025-10-13,Medium,Medium,High,Low,High,High,High,Low,Medium,Rain,0
+2025-10-14,Medium,Medium,High,Low,High,High,Medium,Low,Medium,No rain,0
+2025-10-15,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2025-10-16,High,Medium,High,Medium,High,High,High,Low,High,Rain,1
+2025-10-17,Low,Medium,High,Medium,Medium,Medium,Medium,Low,Low,Rain,0
+2025-10-18,Low,Low,High,Low,Low,Low,Medium,Low,Low,Rain,0
+2025-10-19,Low,Low,Medium,High,Low,Low,Medium,Low,Low,Rain,0
+2025-10-20,Low,Low,Medium,Medium,Low,Medium,Medium,Low,Low,Rain,0
+2025-10-21,Low,Low,Medium,Medium,Low,Medium,Medium,Low,Low,No rain,0
+2025-10-22,Medium,Medium,High,Low,Medium,High,High,Low,Medium,Rain,0
+2025-10-23,High,Medium,High,Low,High,High,High,Low,Medium,Rain,1
+2025-10-24,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2025-10-25,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2025-10-26,Low,Low,Medium,High,Low,Medium,Medium,Low,Low,No rain,0
+2025-10-27,Low,Low,High,Low,Low,High,Medium,Low,Medium,No rain,0
+2025-10-28,Medium,Medium,High,Low,Low,Low,Low,Low,Medium,No rain,0
+2025-10-29,High,Medium,High,Low,High,High,Low,Low,High,Rain,1
+2025-10-30,High,Medium,High,Medium,High,High,Medium,Low,High,Rain,1
+2025-10-31,High,Medium,High,Medium,High,High,Medium,Low,Medium,Rain,1
+2025-11-01,Medium,Medium,Medium,High,Medium,Medium,Medium,Low,Low,No rain,0
+2025-11-02,Low,Low,Medium,Low,Low,Medium,Medium,Low,Low,No rain,0
+2025-11-03,Medium,Medium,High,Medium,Medium,High,High,Low,Medium,No rain,0
+2025-11-04,High,Medium,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-05,High,Medium,High,Low,High,High,High,Low,High,No rain,1
+2025-11-06,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2025-11-07,High,Medium,High,Low,High,High,High,Low,High,Rain,1
+2025-11-08,High,Medium,High,Low,High,High,Medium,Low,Medium,Rain,1
+2025-11-09,Low,Low,Medium,High,Medium,Medium,Medium,Low,Low,No rain,0
+2025-11-10,Medium,Medium,High,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2025-11-11,High,Medium,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-12,High,Medium,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-13,Low,Medium,Medium,Medium,Low,High,Medium,Low,Low,No rain,0
+2025-11-14,Medium,Medium,High,Low,High,High,High,Low,High,No rain,0
+2025-11-15,High,Medium,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-16,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-11-17,Low,Low,Medium,High,Low,Low,Medium,Low,Low,No rain,0
+2025-11-18,Low,Low,Medium,High,Low,Medium,High,Low,Low,No rain,0
+2025-11-19,Medium,Low,Medium,High,Medium,High,High,Low,Medium,No rain,0
+2025-11-20,Low,Low,Medium,High,Low,Medium,High,Medium,Low,No rain,0
+2025-11-21,High,Low,Medium,High,Medium,High,High,Low,Medium,No rain,1
+2025-11-22,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-23,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-11-24,Medium,Low,Medium,High,Medium,Medium,High,Low,High,No rain,0
+2025-11-25,Low,Low,High,Medium,Low,Medium,High,Low,Low,No rain,0
+2025-11-26,High,Low,High,Medium,Medium,High,High,Low,High,No rain,1
+2025-11-27,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-11-28,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-11-29,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2025-11-30,High,Low,Medium,High,Medium,High,Medium,Low,High,No rain,1
+2025-12-01,Low,Low,Medium,High,Low,Low,Low,Medium,Low,No rain,0
+2025-12-02,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2025-12-03,Low,Low,Medium,Medium,Medium,Medium,Medium,Low,Low,No rain,0
+2025-12-04,Low,Low,Medium,High,Medium,Medium,Medium,Low,Low,No rain,0
+2025-12-05,Medium,Low,Medium,Low,High,High,High,Low,Medium,No rain,0
+2025-12-06,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-12-07,Medium,Low,Medium,High,Medium,Medium,High,Medium,Medium,No rain,0
+2025-12-08,Low,Low,Medium,High,Low,Medium,Medium,Low,Low,No rain,0
+2025-12-09,Medium,Low,High,Low,High,High,High,Low,High,No rain,0
+2025-12-10,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-12-11,High,Low,Medium,Medium,High,High,High,Low,Medium,No rain,1
+2025-12-12,Medium,Low,High,Low,High,High,High,Low,Medium,Rain,0
+2025-12-13,Medium,Low,High,High,High,Medium,Medium,Low,Low,Rain,0
+2025-12-14,Medium,Low,High,Medium,High,High,High,Low,Medium,No rain,0
+2025-12-15,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-12-16,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-12-17,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-12-18,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2025-12-19,High,Low,High,High,High,High,High,Low,High,No rain,1
+2025-12-20,Low,Low,Low,High,Low,Low,Low,Medium,Low,No rain,0
+2025-12-21,Low,Low,Medium,Medium,Medium,High,High,Low,Low,No rain,0
+2025-12-22,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2025-12-23,Medium,Low,High,High,High,High,Medium,Low,Medium,Rain,0
+2025-12-24,Low,Low,Medium,High,Medium,Medium,Medium,Low,Low,Rain,0
+2025-12-25,Low,Low,Medium,Medium,Low,Low,Medium,Low,Low,No rain,0
+2025-12-26,Medium,Low,Medium,Low,High,High,High,Low,Medium,No rain,0
+2025-12-27,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-12-28,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2025-12-29,Medium,Low,Medium,High,Medium,High,High,Low,Low,No rain,0
+2025-12-30,Low,Low,Medium,High,Low,Medium,Medium,Medium,Low,No rain,0
+2025-12-31,Low,Low,Medium,Medium,Low,Low,Medium,Low,Low,No rain,0
+2026-01-01,Low,Low,Medium,High,Medium,Medium,Medium,Low,Low,No rain,0
+2026-01-02,Medium,Low,High,Medium,Medium,High,High,Low,Medium,No rain,0
+2026-01-03,High,Low,Medium,High,High,High,High,Low,Medium,No rain,1
+2026-01-04,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2026-01-05,Medium,Low,Medium,High,High,High,High,Low,Medium,No rain,0
+2026-01-06,Medium,Low,Medium,High,Medium,High,High,Low,Medium,No rain,0
+2026-01-07,Low,Low,Medium,High,Low,Medium,High,Medium,Low,No rain,0
+2026-01-08,Medium,Low,High,Medium,High,High,High,Low,High,No rain,0
+2026-01-09,High,Low,Medium,High,High,High,High,Low,High,No rain,1
+2026-01-10,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2026-01-11,Low,Low,Medium,High,Medium,Low,High,Medium,Low,No rain,0
+2026-01-12,Medium,Low,Medium,High,High,High,High,Low,Medium,No rain,0
+2026-01-13,Low,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2026-01-14,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2026-01-15,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2026-01-16,High,Low,Medium,High,High,Medium,High,Low,High,No rain,1
+2026-01-17,Low,Low,Medium,Medium,Medium,Medium,High,Medium,Low,Rain,0
+2026-01-18,Medium,Low,High,Medium,High,Medium,High,Low,Medium,Rain,0
+2026-01-19,Low,Low,Low,High,Low,Low,Medium,Medium,Low,No rain,0
+2026-01-20,Low,Low,Medium,High,Low,Medium,Low,Low,Low,No rain,0
+2026-01-21,Low,Low,Medium,Medium,Low,Medium,Low,Low,Low,No rain,0
+2026-01-22,Medium,Low,Medium,Low,Medium,High,Medium,Low,Medium,No rain,0
+2026-01-23,Medium,Low,Medium,High,High,High,High,Low,Medium,No rain,0
+2026-01-24,Medium,Low,Medium,Medium,High,High,High,Low,Medium,No rain,0
+2026-01-25,Medium,Low,Medium,Medium,Medium,High,High,Low,Medium,No rain,0
+2026-01-26,High,Low,High,High,Medium,High,High,Low,High,No rain,1
+2026-01-27,Medium,Low,Medium,Medium,Medium,High,Medium,Low,Medium,No rain,0
+2026-01-28,High,Low,High,Medium,High,High,High,Low,High,No rain,1
+2026-01-29,High,Low,High,Low,High,High,High,Low,High,No rain,1
+2026-01-30,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2026-01-31,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2026-02-01,Medium,Low,Medium,High,Medium,High,Medium,Low,Medium,No rain,0
+2026-02-02,Low,Low,Medium,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2026-02-03,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2026-02-04,High,Low,Medium,Medium,High,High,High,Low,High,No rain,1
+2026-02-05,Medium,Low,Low,High,Low,Low,Medium,Medium,Medium,No rain,0
+2026-02-06,Low,Low,Medium,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2026-02-07,Low,Low,Medium,High,Low,Low,Medium,Medium,Low,No rain,0
+2026-02-08,Medium,Low,Medium,Medium,Medium,Medium,Medium,Low,Low,No rain,0
+2026-02-09,High,Low,Medium,Low,High,High,High,Low,High,No rain,1
+2026-02-10,High,Low,Medium,High,High,High,High,Low,High,No rain,1
+2026-02-11,Medium,Low,Medium,High,Medium,Medium,High,Medium,Medium,No rain,0
+2026-02-12,High,Low,Medium,High,High,High,High,Medium,High,No rain,1
+2026-02-13,High,Low,Medium,Medium,High,High,High,Medium,High,No rain,1
+2026-02-14,High,Low,Low,High,High,Medium,High,Medium,High,No rain,1
+2026-02-15,Low,Low,Low,High,Low,Low,High,High,Low,No rain,0
+2026-02-16,Low,Low,Low,High,Low,Low,High,Medium,Low,No rain,0
+2026-02-17,High,Low,Low,High,Medium,Low,High,Medium,High,No rain,1
+2026-02-18,Medium,Low,Medium,High,Low,Low,High,Medium,Low,No rain,0
+2026-02-19,High,Low,Medium,High,High,Medium,High,Medium,Medium,No rain,1
+2026-02-20,High,Medium,Medium,Medium,High,Medium,High,Medium,High,No rain,1
+2026-02-21,High,Medium,Medium,High,High,Medium,High,Medium,High,No rain,1
+2026-02-22,Low,Low,Low,High,Low,Low,Medium,High,Medium,No rain,0
+2026-02-23,Low,Low,Low,Medium,Medium,Low,High,Medium,Medium,No rain,0
+2026-02-24,High,Low,High,Medium,High,Medium,High,Medium,High,No rain,1
+2026-02-25,High,Low,High,Medium,High,High,High,Low,High,Rain,1
+2026-02-26,High,Low,High,High,High,Medium,High,Low,High,Rain,1
+2026-02-27,Medium,Low,High,Low,Medium,Low,Medium,Low,Medium,Rain,0
+2026-02-28,High,Low,High,Medium,High,Medium,High,Low,High,Rain,1
+2026-03-01,High,Low,High,Low,High,Medium,High,Low,High,Rain,1
+2026-03-02,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2026-03-03,High,Low,Medium,Medium,High,Medium,High,Medium,High,Rain,1
+2026-03-04,High,Low,High,High,High,Medium,High,Medium,High,Rain,1
+2026-03-05,High,Low,High,Low,High,Medium,High,Medium,Medium,Rain,1
+2026-03-06,Medium,Low,Medium,Medium,Medium,Medium,Medium,Medium,Low,No rain,0
+2026-03-07,High,Low,Medium,Medium,High,High,Medium,Low,High,No rain,1
+2026-03-08,High,Low,Medium,Medium,High,Medium,Medium,Medium,High,No rain,1
+2026-03-09,Low,Low,Medium,Medium,Low,Medium,Medium,Medium,Low,No rain,0
+2026-03-10,High,Low,Medium,Low,High,High,High,Medium,High,No rain,1
+2026-03-11,High,Low,Medium,Medium,Medium,High,High,Medium,Medium,No rain,1
+2026-03-12,High,Low,High,Medium,High,High,High,High,High,No rain,1
+2026-03-13,High,Low,High,Low,High,High,High,Low,High,Rain,1
+2026-03-14,Medium,Low,Medium,Medium,Medium,Medium,Medium,Medium,Medium,Rain,0
+2026-03-15,High,Medium,Medium,Low,Medium,High,High,Medium,High,No rain,1
+2026-03-16,High,Low,Medium,Medium,Medium,High,High,Medium,High,No rain,1
+2026-03-17,High,Low,High,Low,High,High,High,Medium,High,Rain,1
+2026-03-18,Low,Low,Low,High,Low,Low,Low,Medium,Low,Rain,0
+2026-03-19,Medium,Medium,Low,Medium,Medium,High,High,Medium,Medium,Rain,0
+2026-03-20,Medium,Low,Medium,High,Medium,High,High,Medium,High,No rain,0
+2026-03-21,High,Medium,Medium,Medium,High,High,High,Medium,High,Rain,1
+2026-03-22,High,Medium,Medium,Medium,Medium,High,High,Medium,High,Rain,1
+2026-03-23,High,Medium,Medium,Medium,High,Medium,High,High,High,Rain,1
+2026-03-24,High,Medium,Medium,Low,High,High,High,High,High,No rain,1
+2026-03-25,High,Medium,Low,Medium,High,High,High,High,High,No rain,1
+2026-03-26,High,Medium,Low,Medium,High,High,High,High,High,No rain,1
+2026-03-27,Low,Medium,Low,Medium,Low,Medium,High,High,Low,No rain,0
+2026-03-28,High,Medium,Medium,Medium,Medium,High,High,Medium,High,Rain,1
+2026-03-29,High,Medium,Medium,Medium,High,High,High,Medium,High,Rain,1
+2026-03-30,Low,Medium,Medium,Medium,Low,Low,High,Medium,Low,Rain,0
+2026-03-31,Medium,Medium,Medium,Low,Medium,High,High,Medium,Medium,Rain,0
+2026-04-01,Medium,Medium,Low,High,Low,Medium,High,Medium,Medium,No rain,0
+2026-04-02,High,Medium,Medium,Medium,Medium,High,High,Medium,High,No rain,1
+2026-04-03,High,Medium,Medium,High,High,High,High,Medium,High,Rain,1
+2026-04-04,Medium,Medium,Low,High,Medium,Medium,High,High,High,No rain,0
+2026-04-05,Low,Medium,Low,High,Low,Low,Medium,Medium,Medium,No rain,0
+2026-04-06,Low,Medium,Low,High,Low,Low,Medium,High,Low,No rain,0
+2026-04-07,Low,Medium,Low,High,Low,Low,Medium,High,Low,No rain,0
+2026-04-08,High,Medium,Medium,High,Medium,High,High,Medium,High,Rain,1
+2026-04-09,High,Medium,High,Medium,High,Medium,Medium,Medium,Medium,Rain,1
+2026-04-10,Medium,Medium,Medium,High,Medium,Medium,Medium,Medium,Medium,Rain,0
+2026-04-11,Low,Medium,Low,High,Low,High,High,Medium,Medium,No rain,0
+2026-04-12,High,Medium,Low,Low,High,High,High,High,High,No rain,1
+2026-04-13,High,Medium,Low,Medium,Medium,Medium,High,Medium,High,Rain,1
+2026-04-14,High,Medium,Medium,Medium,High,High,High,Medium,High,Rain,1
+2026-04-15,High,Medium,High,Medium,High,High,High,High,High,Rain,1
+2026-04-16,High,Medium,High,Medium,High,High,High,Medium,High,Rain,1
+2026-04-17,High,Medium,Medium,Low,Medium,Medium,Medium,Medium,Medium,Rain,1
+2026-04-18,High,Medium,Medium,High,High,Medium,High,High,High,Rain,1
+2026-04-19,Medium,Medium,Medium,High,Low,Low,High,High,High,Rain,0
+2026-04-20,Medium,Medium,Low,High,Low,Low,Medium,High,High,No rain,0
+2026-04-21,Medium,Medium,Low,High,Medium,Medium,High,Medium,High,No rain,0
+2026-04-22,Medium,Medium,Low,High,Medium,Medium,High,High,High,No rain,0
+2026-04-23,High,Medium,Medium,High,Medium,Medium,High,High,High,No rain,1
+2026-04-24,High,Medium,Medium,Low,Medium,Medium,High,High,High,No rain,1
+2026-04-25,High,Medium,Medium,High,Medium,Medium,High,High,High,No rain,1
+2026-04-26,Medium,Medium,Medium,High,Low,Medium,High,High,Medium,Rain,0
+2026-04-27,Low,Medium,Medium,High,Low,Low,Medium,Medium,Medium,Rain,0
+2026-04-28,Low,Medium,Low,High,Low,Low,Medium,Medium,Low,Rain,0
+2026-04-29,Low,Medium,Low,Low,Low,Medium,Medium,Medium,Low,No rain,0
+2026-04-30,Medium,Medium,Low,Low,Low,Medium,High,High,Medium,No rain,0
+2026-05-01,High,Medium,Low,Low,Medium,Medium,High,High,High,No rain,1
+2026-05-02,Medium,Medium,Medium,Medium,Medium,Medium,High,Medium,Medium,Rain,0
+2026-05-03,Low,Medium,Low,Medium,Low,Low,Medium,Medium,Low,Rain,0
+2026-05-04,Low,Medium,Low,Medium,Low,Medium,Medium,High,Medium,No rain,0
+2026-05-05,Medium,High,Low,Medium,Medium,Medium,High,High,High,No rain,0
+2026-05-06,Medium,Medium,Low,Low,Low,Low,High,High,Medium,Rain,0
+2026-05-07,Low,Medium,Low,High,Low,Low,Low,High,Low,No rain,0
+2026-05-08,Medium,Medium,Low,Medium,Low,Medium,High,High,Medium,No rain,0
+2026-05-09,High,Medium,Low,Low,Medium,Medium,High,High,High,Rain,1
+2026-05-10,Medium,High,Low,Low,Medium,Medium,High,High,Medium,Rain,0
+2026-05-11,Medium,High,Low,Low,Medium,Medium,High,High,Medium,Rain,0
+2026-05-12,High,High,Low,Medium,High,Medium,High,High,High,Rain,1
+2026-05-13,High,High,Medium,Low,High,Medium,High,High,High,Rain,1
+2026-05-14,High,High,Medium,Medium,High,Medium,High,High,High,Rain,1
+2026-05-15,High,High,High,Medium,High,Low,High,High,High,Rain,1
+2026-05-16,Medium,Medium,High,Medium,High,Low,High,High,Medium,Rain,0
+2026-05-17,Medium,Medium,High,Low,High,Low,Low,Low,Low,Rain,0
+2026-05-18,Low,High,High,Low,Low,Low,Low,High,Low,Rain,0
+2026-05-19,Medium,High,High,Low,High,Low,Medium,High,Medium,No rain,0
+2026-05-20,Medium,Medium,High,Low,Medium,Low,Medium,High,Low,Rain,0
+2026-05-21,Low,High,High,Low,Medium,Low,Low,High,Low,Rain,0
