@@ -1,0 +1,17 @@
+metric,value
+Sample rows,1461
+Smooth terms,5
+Linear control terms,4
+Spline basis functions per smooth term,9
+Selected lambda by GCV,1.0
+Effective degrees of freedom,34.59929032
+Explained deviance,0.79299535
+R-squared,0.79299535
+Adjusted R-squared,0.7881193
+RMSE,11.7010007
+MAE,7.62723003
+AIC,11402.50547814
+Linear baseline R-squared,0.75718999
+Linear baseline RMSE,12.67261527
+Linear baseline AIC,11586.39197276
+GAM minus linear baseline AIC,-183.88649462

@@ -1,0 +1,6 @@
+item,value
+full_ols_R2,0.7697890520846424
+weather_only_R2,0.4744250997266637
+R2_gain_from_gaseous_pollutants,0.29536395235797874
+full_ols_adjusted_R2,0.7678812265494322
+weather_only_adjusted_R2,0.47152937024857366

@@ -1,0 +1,10 @@
+rank,variable,variable_label,category,strongest_state,strongest_delta_P,max_abs_delta_P,lowest_risk_state,lowest_BN_P_high,highest_risk_state,highest_BN_P_high,probability_range
+1,PM10_level,PM10,Particulate background,High,0.50735325,0.50735325,Low,0.00203668,High,0.84114164,0.83910496
+2,CO_level,CO,Gaseous pollutant,High,0.41977731,0.41977731,Low,0.03265332,High,0.7535657,0.72091238
+3,NO2_level,NO2,Gaseous pollutant,High,0.31387135,0.31387135,Low,0.1059071,High,0.64765975,0.54175265
+4,SO2_level,SO2,Gaseous pollutant,High,0.18963527,0.18963527,Low,0.23829072,High,0.52342367,0.28513295
+5,Humidity_level,Humidity,Meteorological,Low,-0.13623106,0.13623106,Low,0.19755733,High,0.40286499,0.20530766
+6,Temperature_level,Temperature,Meteorological,High,-0.11790104,0.11790104,High,0.21588736,Medium,0.42449184,0.20860448
+7,O3_level,O3,Gaseous pollutant,Low,0.10294835,0.10294835,Medium,0.23877703,Low,0.43673675,0.19795972
+8,WindSpeed_level,Wind speed,Meteorological,High,-0.09092972,0.09092972,High,0.24285868,Low,0.41548064,0.17262196
+9,Precipitation_rain,Precipitation,Meteorological,Rain,-0.0194205,0.0194205,Rain,0.3143679,No rain,0.35163494,0.03726704

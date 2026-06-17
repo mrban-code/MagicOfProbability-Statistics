@@ -1,0 +1,6 @@
+term,coefficient,std_error,z_statistic_approx,p_value_approx,significance,coefficient_scale
+Intercept,30.10190965,0.30981485,97.160964,0.0,***,PM2.5 units
+Precipitation,-0.8165813,0.41996298,-1.944413,0.0518457184,ns,PM2.5 units per 1 SD increase
+Temperature,-0.65453599,0.62553288,-1.046365,0.2953923385,ns,PM2.5 units per 1 SD increase
+Lag_PM2.5,6.96941667,0.37355777,18.656864,0.0,***,PM2.5 units per 1 SD increase
+month,-0.99792635,0.3784722,-2.636723,0.0083711165,**,PM2.5 units per 1 SD increase
